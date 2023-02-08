@@ -54,7 +54,7 @@
 
 
 /* Navbar Mobile Styles */
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 650px) {
 
   .navbarDesk {
     display: none;

@@ -22,10 +22,10 @@
     src:url(/Fonts/Gilroy-Light.ttf);
     font-family:'Gilroy-Light';
 }
-
+   
 
 /* Resume Mobile Styles */
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 650px) {
 
     body {
         background-color: #F1FAEE;
@@ -34,7 +34,6 @@
         height: 100vh;
         margin-top: 0px;
     }
-
 
     #resumeSection {
         background-color: #F1FAEE;

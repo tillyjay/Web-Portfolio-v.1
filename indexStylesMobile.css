@@ -1,7 +1,7 @@
 
 /* Main Mobile Styles */
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 650px) {
 
     html,body {
         width: 100%;
@@ -47,6 +47,11 @@
     }
 
     /* Display None */
+
+    .navbarDesk {
+        display: none;
+    }
+
     #spheres {
         display: none;
         margin: 0;

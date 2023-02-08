@@ -1,28 +1,28 @@
 // If on certain page, underline that link in menu
 
 // toggle active link  
-const links = document.getElementsByTagName("a");
+// const links = document.getElementsByTagName("a");
 
-function setActive(el) 
-{
-    for (var i = 0; i < links.length; i++) 
-    {
-        if (links[i] == el) {
-          el.classList.toggle("active");
-        } else {
-          links[i].classList.remove('active');
-        }
-      }
-}
+// function setActive(el) 
+// {
+//     for (var i = 0; i < links.length; i++) 
+//     {
+//         if (links[i] == el) {
+//           el.classList.toggle("active");
+//         } else {
+//           links[i].classList.remove('active');
+//         }
+//       }
+// }
   
-// updaing individual page with nav click
-  for (var i = 0; i < links.length; i++) 
-  {
-    links[i].addEventListener("click", function() 
-    {
-      setActive(this);
-    });
-  }
+// // updaing individual page with nav click
+//   for (var i = 0; i < links.length; i++) 
+//   {
+//     links[i].addEventListener("click", function() 
+//     {
+//       setActive(this);
+//     });
+//   }
 
 
     
