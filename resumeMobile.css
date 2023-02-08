@@ -1,0 +1,275 @@
+/* Font Families */
+@font-face
+{
+    src:url(/Fonts/Gilroy-Regular.ttf);
+    font-family:'Gilroy-Regular';
+}
+
+@font-face
+{
+    src:url(/Fonts/Gilroy-Bold.ttf);
+    font-family:'Gilroy-Bold';
+}
+
+@font-face
+{
+    src:url(/Fonts/Gilroy-SemiBold.ttf);
+    font-family:'Gilroy-SemiBold';
+}
+
+@font-face
+{
+    src:url(/Fonts/Gilroy-Light.ttf);
+    font-family:'Gilroy-Light';
+}
+
+
+/* Resume Mobile Styles */
+@media only screen and (max-width: 599px) {
+
+    body {
+        background-color: #F1FAEE;
+        font-family: Gilroy-SemiBold;
+        width: 100%;
+        height: 100vh;
+        margin-top: 0px;
+    }
+
+
+    #resumeSection {
+        background-color: #F1FAEE;
+        font-family: Gilroy-SemiBold;
+    }
+
+    #resumeContainer {
+        padding-top: 20%;
+        margin: 0% 6%;
+        display: flex; 
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #resumeContainer h1 {
+        font-family: Gilroy-Bold;
+        font-size: 15vw;
+        padding: 15px 20px;
+        align-self: flex-start;
+    }
+
+    #summary {
+        font-size: 1.2rem;
+        margin: 0px 10px;
+        line-height: 27px;
+    }
+
+    /* Education Styles */
+    #education {
+        font-family: Gilroy-Regular;
+        font-size: 1.1rem;
+        line-height: 20px;
+        width: 100%;
+        margin-top: 1%;
+        margin-left: 15px;
+    }
+    
+    #education h2 {
+        margin-top: 35px;
+        font-size: 2rem;
+        padding-bottom: 10px;
+        font-family: Gilroy-SemiBold;
+    }
+    
+    .edu {
+        display: flex; 
+        flex-flow: row wrap;
+        margin: 10px 0px;;
+    }
+
+    .eduImg {
+        width: 65px;
+        height: 65px;
+        border: 2px solid #13CF93;
+        border-radius: 50%;
+    }
+
+    .eduInfo {
+        display: flex; 
+        flex-flow: column nowrap;
+        font-size: 1rem;
+        margin-left: 20px;
+    }
+
+    .edu h3 {
+        font-size: 1.4rem;
+        font-family: Gilroy-SemiBold;
+    }
+
+    .edu p {
+        display: flex; 
+        flex-flow: column nowrap;
+        font-size: 1rem;
+    }
+
+    /* Work Experience Styles */
+    #experience {
+        margin: 10px 0px;
+    }
+
+    #experience h2 {
+        margin-top: 15px;
+        font-size: 2rem;
+        padding-bottom: 20px;
+        font-family: Gilroy-SemiBold;
+    }
+
+    .exper {
+        display: flex; 
+        flex-flow: row wrap;
+        margin-bottom: 15px;
+    }
+
+    .experImg {
+        width: 65px;
+        height: 65px;
+        border: 2px solid #13CF93;
+        border-radius: 50%;
+    }
+
+    .exper h3 {
+        font-size: 1.5rem;
+        font-family: Gilroy-SemiBold;
+    }
+
+    .experInfo {
+        display: flex; 
+        flex-flow: column nowrap;
+        font-size: 1rem;
+        margin-left: 10px;
+        font-family: Gilroy-Light;
+    }
+    
+    /* Skills Styles */
+    #skills {
+        font-family: Gilroy-Regular;
+        font-size: 1.1rem;
+        line-height: 20px;
+        width: 100%;
+        margin-top: 1%;
+        margin-left: 15px;
+    }
+    
+    #skills h2 {
+        margin-top: 30px;
+        font-size: 2rem;
+        font-family: Gilroy-SemiBold;
+    }
+    
+    .skill {
+        display: flex; 
+        flex-flow: row wrap;
+        margin: 20px 0px;;
+    }
+
+    .skillImg {
+        width: 65px;
+        height: 65px;
+        border: 2px solid #13CF93;
+        border-radius: 50%;
+    }
+
+    .skill h3 {
+        font-size: 1.5rem;
+        font-family: Gilroy-SemiBold;
+    }
+
+    .skillInfo {
+        display: flex; 
+        flex-flow: column wrap;
+        font-size: 1rem;
+        margin-left: 20px;
+        font-family: Gilroy-Light;
+    }
+
+    /* Volunteer Styles */
+    #volunteer {
+        font-family: Gilroy-Regular;
+        font-size: 1.1rem;
+        line-height: 20px;
+        width: 100%;
+        margin-top: 1%;
+        margin-left: 15px;
+    }
+    
+    #volunteer h2 {
+        margin-top: 25px;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        font-family: Gilroy-SemiBold;
+    }
+    
+    .vol {
+        display: flex; 
+        flex-flow: row wrap;
+        margin: 20px 0px;;
+    }
+
+    .volImg {
+        width: 65px;
+        height: 65px;
+        border: 2px solid #13CF93;
+        border-radius: 50%;
+    }
+
+    .vol h3 {
+        font-size: 1.5rem;
+        font-family: Gilroy-SemiBold;
+    }
+
+    .volInfo {
+        display: flex; 
+        flex-flow: column nowrap;
+        font-size: 1rem;
+        margin-left: 20px;
+        font-family: Gilroy-Light;
+    }
+
+    #spacer h2 {
+        font-size: 2rem;
+        display: hidden;
+    }
+
+    /* Footer Mobile Styles */
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        font-family: Gilroy-Regular;
+        padding: 5px;
+        width: 92%;
+        margin: 1% 2% 1% ;
+        display: flex; 
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        border: 3px solid #13CF93;
+        background-color: #F1FAEE;
+    }
+
+    .footerIcon {
+        font-size: 8vw;
+        padding-right: 10px;
+        color: black;
+    }
+
+    .footerIcon:hover {
+        color: #13CF93;
+    }
+
+    .footerEle {
+        font-size: 5vw;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+}    

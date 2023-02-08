@@ -1,0 +1,345 @@
+/* Font Families */
+@font-face
+{
+    src:url(/Fonts/Gilroy-Regular.ttf);
+    font-family:'Gilroy-Regular';
+}
+
+@font-face
+{
+    src:url(/Fonts/Gilroy-Bold.ttf);
+    font-family:'Gilroy-Bold';
+}
+
+@font-face
+{
+    src:url(/Fonts/Gilroy-SemiBold.ttf);
+    font-family:'Gilroy-SemiBold';
+}
+
+@font-face
+{
+    src:url(/Fonts/Gilroy-Light.ttf);
+    font-family:'Gilroy-Light';
+}
+
+
+/* Basic Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+    font-family: Gilroy-Bold;
+    background-color: #F1FAEE;
+}
+
+section {
+    height: 100%;
+    color: black;
+}
+
+section#mobileHome {
+    display: none;
+}
+
+
+/* Section Home */  
+#homeSection {
+    background-color: #F1FAEE;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+div#homeContainer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+div.titleDiv {
+    display: flex; 
+    flex-flow: column nowrap;
+    margin-top: 0%;
+}
+
+div.titleDiv h1 {
+    font-size: 9vw;
+}
+
+#webTitle {
+    margin-right: 0px;
+}    
+
+
+/* Work Section */
+#workSection {
+    background-color:  #F1FAEE;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    z-index: -99;
+}
+
+div#workContainer {
+    display: flex; 
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  #F1FAEE;
+}
+
+#workContainer h2 {
+    font-family: Gilroy-Bold;
+    font-size: 5vw;
+    padding: 15px;
+    align-self: flex-start;
+    margin-left: 60px;
+}
+
+#workContainer .row {
+    display: flex; 
+    flex-direction: row wrap;
+
+}
+
+#workContainer ul.card-list {
+    display: flex; 
+    flex-direction: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#workContainer li.card {
+    flex: 0 1 250px;
+    margin-left: 5%; 
+    position: relative;
+}
+
+#workContainer img.card-img {
+    max-width: 100%;
+    border-radius: 20px;
+    filter: grayscale();
+    border: 3px solid #2b2824;
+    transition: filter 1s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+#workContainer img.card-img:hover {
+    max-width: 100%;
+    border-radius: 20px;
+    filter: none;
+    border: 3px solid #2b2824;
+}
+
+/* Work Experience Section Continued */
+#workSectionCont {
+    background-color:  #F1FAEE;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+div#workContainerCont {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color:  #F1FAEE;
+}
+
+#workContainerCont .row {
+    display: flex; 
+    flex-direction: row wrap;
+}
+
+#workContainerCont ul.card-list {
+    display: flex; 
+    flex-direction: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#workContainerCont li.card {
+    flex: 0 1 250px;
+    margin-right: 5%; 
+    position: relative;
+}
+
+#workContainerCont img.card-img {
+    width: 100%;
+    border-radius: 20px;
+    filter: grayscale();
+    border: 3px solid #2b2824;
+    transition: filter 1s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+#workContainerCont img.card-img:hover {
+    max-width: 100%;
+    border-radius: 20px;
+    filter: none;
+    border: 3px solid #2b2824;
+}
+
+
+/* About Me Section */
+#aboutSection {
+    background-color:  #F1FAEE;
+    display: flex; 
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.aboutContainer {
+    flex-flow: column wrap;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#aboutMe {
+    margin-top: 80px;
+    font-family: Gilroy-Bold;
+    font-size: 5vw;
+}
+
+#aboutText {
+    margin-top: 25px;
+    max-width: 620px;
+    z-index: 10;
+} 
+
+#aboutText p {
+    font-family: Gilroy-Regular;
+    font-size:  .95rem;
+    font-weight: bolder;
+    line-height: 20px;
+}
+
+#thirdAP {
+    margin-right: 45px;
+}
+
+#fourthAP {
+    margin-right: 45px;
+}
+
+
+/* Contact Section */
+#contactSection {
+    background-color:  #F1FAEE;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.contactContainer {
+    flex-flow: column wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hi {
+    font-family: Gilroy-Bold;
+    font-size: 5vw;
+}
+
+form {
+    display: flex; 
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    z-index:10;
+}
+
+label {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 410px;
+    height: 25px;
+    border-radius: 15px;
+    padding: 5px;
+    border: 2px solid #13CF93;
+    font-family: Gilroy-Semibold;
+}
+
+#message {
+    margin-top: 20px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid #13CF93;
+    font-family: Gilroy-Semibold;
+}
+
+::placeholder {
+    font-family: Gilroy-Regular;
+    color: #13CF93;
+}
+
+#submit {
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 15px;
+    color: #13CF93;
+    border: 2px solid #13CF93;
+    background-color: white;
+}
+
+#submit:hover {
+    color: #F1FAEE;
+    border: 2px solid #F1FAEE;
+    background-color: #13CF93;
+}
+
+
+/* Footer Styles*/    
+footer {
+    font-family: Gilroy-Regular;
+    padding: 5px;
+    width: 78%;
+    margin: 1% 2% 1% ;
+    display: flex; 
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    border: 3px solid #13CF93;
+    background-color: #F1FAEE;
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+}
+
+.footerIcon {
+    font-size: 2.4vw;
+    padding-right: 10px;
+    color: black;
+}
+
+.footerIcon:hover {
+    color: #13CF93;
+}
+
+.footerEle {
+    font-size: 1.5vw;
+    padding: 5px;
+    border-radius: 5px;
+}
+

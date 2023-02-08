@@ -1,0 +1,259 @@
+
+/* Resume Section */
+#resumeSection {
+    background-color:  #F1FAEE;
+    margin-bottom: 10px;
+}
+
+#resumeContainer {
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    z-index: 1;
+    background-color:  #F1FAEE;
+    height: 100%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#resumeSection h1 {
+    margin: 0% 0% 1% 3%;
+    font-size: 4rem;
+}
+
+#resumeContent1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.leftCol {
+    display: flex; 
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 1%;
+    width: 45%;
+    z-index: 10;
+}
+
+/* Resume Summary */
+#summary {
+    font-family: Gilroy-Regular;
+    font-size: 1rem;
+    line-height: 20px;
+    width: 100%;
+    margin-right: 1%;
+}
+
+#summary h2 {
+    font-family: Gilroy-SemiBold;
+    padding-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+/* Resume Education */
+#education {
+    font-family: Gilroy-Regular;
+    font-size: 1.1rem;
+    line-height: 20px;
+    width: 100%;
+    margin-top: 1%;
+}
+
+#education h2 {
+    margin-top: 35px;
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+    font-family: Gilroy-SemiBold;
+}
+
+.edContent {
+    display: flex;
+    flex-flow: row;
+}
+
+.edLeftCol {
+    width: 90%;
+}
+
+.edRightCol {
+    width: 90%;
+   margin-left: 10px; 
+}
+
+.edu {
+    display: flex; 
+    margin-bottom: 15px;
+}
+
+.eduImg {
+    width: 65px;
+    height: 65px;
+    border: 2px solid #13CF93;
+    border-radius: 50%;
+}
+
+.eduInfo {
+    display: flex; 
+    flex-flow: column nowrap;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+.edu h3 {
+    font-size: 1.2rem;
+    font-family: Gilroy-SemiBold;
+}
+
+.edu p {
+    display: flex; 
+    flex-flow: column nowrap;
+    font-size: 1rem;
+}
+
+/* Resume Work Experience */
+#experience {
+    font-family: Gilroy-Regular;
+    font-size: 1.1rem;
+    line-height: 20px;
+    width: 45%;
+    margin-left: 3%;
+}
+
+#experience h2 {
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+    font-family: Gilroy-SemiBold;
+}
+
+.exper {
+    display: flex; 
+    margin-bottom: 15px;
+}
+
+.experImg {
+    width: 65px;
+    height: 65px;
+    border: 2px solid #13CF93;
+    border-radius: 50%;
+}
+
+.exper h3 {
+    font-size: 1.2rem;
+    font-family: Gilroy-SemiBold;
+}
+
+.experInfo {
+    display: flex; 
+    flex-flow: column nowrap;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+/* Resume Section Continued */
+#resumeSectionCont {
+    background-color:  #F1FAEE;
+}
+
+#resumeContainerCont {
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 1;
+    background-color:  #F1FAEE;
+    height: 100%;
+    width: 70%;
+    margin-left: 15%;
+    z-index: 10;
+  
+}
+
+/* Skills Resume */
+#skills {
+    font-family: Gilroy-Regular;
+    font-size: 1.1rem;
+    line-height: 20px;
+    width: 45%;
+    margin: 2% 0% 0% 3%; 
+}
+ 
+#skills h2 {
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+    font-family: Gilroy-SemiBold;
+}
+
+.skill {
+    display: flex; 
+    margin-bottom: 10px;
+}
+
+.skillImg {
+    width: 65px;
+    height: 65px;
+    border: 2px solid #13CF93;
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
+
+.skill h3 {
+    font-size: 1.2rem;
+    font-family: Gilroy-SemiBold;
+}
+
+.skillInfo {
+    display: flex; 
+    flex-flow: column nowrap;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+/* Resume Volunteer */
+#volunteer {
+    font-family: Gilroy-Regular;
+    font-size: 1.1rem;
+    line-height: 20px;
+    width: 45%;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+#volunteer h2 {
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+    font-family: Gilroy-SemiBold;
+    margin-top: 15px;
+}
+
+.vol {
+    display: flex; 
+    margin-bottom: 15px;
+}
+
+.volImg {
+    width: 65px;
+    height: 65px;
+    border: 2px solid #13CF93;
+    border-radius: 50%;
+}
+
+.volInfo {
+    display: flex; 
+    flex-flow: column nowrap;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+.vol h3 {
+    font-size: 1.2rem;
+    font-family: Gilroy-SemiBold;
+}
+
+.vol p {
+    display: flex; 
+    flex-flow: column nowrap;
+    font-size: 1rem;
+}

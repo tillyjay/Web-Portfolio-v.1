@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tilly Jay Portfolio Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="navBar.css">
+    <link rel="stylesheet" href="contactMobile.css">
+    <style>
+    @font-face
+    {
+        src:url(Gilroy-Regular.ttf);
+        font-family:'Gilroy-Regular';
+    }
+
+    @font-face
+    {
+        src:url(Gilroy-Bold.ttf);
+        font-family:'Gilroy-Bold';
+    }
+
+    @font-face
+    {
+        src:url(Gilroy-SemiBold.ttf);
+        font-family:'Gilroy-SemiBold';
+    }
+
+    @font-face
+    {
+        src:url(Gilroy-Light.ttf);
+        font-family:'Gilroy-Light';
+    }
+    </style>
+</head>
+
+<body>
+<!-- navbar mobile--> 
+<header>
+  <nav>
+    <div class="navbar">
+      <div class="container nav-container">
+        <input class="checkbox" type="checkbox" name="" id="" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>  
+
+        <div class="menu-items">
+          <li><a href="index.html">home</a></li>
+          <li><a href="work.html">work</a></li>
+          <li><a href="resume.html">resume</a></li>
+          <li><a href="aboutMe.html">about me</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!--contact section-->
+<main>
+  <section id="contactSection">
+    <div class="contactContainer">
+      <h2 id="hi">Say Hi.</h2>
+        <form style="width: 68%; margin-right: 10px;" action="contact.php" method="post">
+            <div style="margin-top: 25px;" class="elem-group">
+            <label for="name">Name</label>
+                <input style="margin-top: 5px; margin-bottom: 20px;" type="text" id="name" name="visitor_name" placeholder="Enter Name" pattern=[A-Z\sa-z]{3,20} required>
+            </div>
+            <div class="elem-group">
+            <label for="email">Email</label>
+                <input style="margin-top: 5px;" type="email" id="email" name="visitor_email" placeholder="Enter Email" required>
+            </div>
+            <div class="elem-group">
+                <textarea style="width: 300px; height: 150px;" id="message" name="visitor_message" placeholder="Message" required></textarea>
+            </div>
+ 
+            <button id="submit" type="submit"><i class="fa-solid fa-paper-plane fa-xl"></i></button>
+        </form>
+    </div>
+  </section>
+</main>
+
+<!--footer-->    
+<footer>
+    <a href="https://github.com/tillyjay"><i class="fa-brands fa-square-github footerIcon"></i></a>
+    <a href="https://www.linkedin.com/in/tilly-campbell/"><i class="fa-brands fa-linkedin footerIcon"></i></a>
+    <p class="footerEle">tillyjay2023</p>
+</footer>
+
+</body>
+</html>

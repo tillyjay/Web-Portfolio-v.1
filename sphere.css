@@ -1,0 +1,763 @@
+
+/* Sphere Styles */
+
+/* Sphere One */
+.ballDiv1 {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+
+}
+
+.ball1 {
+  display: block;
+  background: black;
+  margin: 0;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background: radial-gradient(circle at 100px 100px, #a5a5a5, #000);
+}
+
+.ball1 .shadow1 {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+  transform: rotateX(90deg) translateZ(-150px);
+}
+
+.ball1:hover  {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background: #13CF93;
+  color: black;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+  border: 5px solid #3eac89;
+}
+
+.ball1:hover p {
+  display:block;
+  margin-top: 75px;
+}
+
+.ball1 p {
+  display: none;
+}
+
+/* Sphere Two */
+.ballDiv2{
+  position: absolute;
+  margin-top: 450px;
+  margin-left: -50px;
+
+}
+
+.ball2 {
+  display: block;
+  background: black;
+  margin: 0;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  background: radial-gradient(circle at 200px 100px, #a5a5a5, #000);
+}
+
+.ball2 .shadow2 {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+  transform: rotateX(90deg) translateZ(-150px);
+}
+
+.ball2:hover  {
+  border-radius: 50%;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 300px;
+  height: 300px;
+  background: #13CF93;
+  color: black;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+  border: 5px solid #3eac89;
+}
+
+.ball2:hover p {
+  display:block;
+  margin-left: 50px;
+  margin-top: 100px;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.ball2 p {
+   display: none;
+}
+
+/* Sphere 3 */
+.ballDiv3{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 900px;
+  z-index: 20;
+}
+
+.ball3 {
+  display: block;
+  background: black;
+  margin: 0;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background: radial-gradient(circle at 200px 130px, #13CF93, #000);
+}
+
+.ball3 .shadow3 {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+  transform: rotateX(90deg) translateZ(-150px);
+}
+
+.ballDiv3 h1 {
+  position: absolute;
+  top: 80px;
+  left: 40px;
+  color: white;
+  font-family: Gilroy-Regular;
+  font-size: 2vw;
+} 
+
+/* Sphere 3 Hover */
+.ball3:hover  {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background: #13CF93;
+  color: black;
+  overflow: auto;
+  vertical-align: middle;
+  text-align: center;
+  border: 5px solid #3eac89;
+  padding: 15px;
+}
+
+.ball3:hover p {
+  display:block;
+  margin-left: 0px;
+  margin-top: 80px;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.ballDiv3:hover h1 {
+  display: none;
+}
+
+.ball3 p {
+  display: none;
+}
+
+.ball3 span#leftArrow {
+  margin-left: 15px;
+}
+
+
+/* Sphere Four */
+.ballDiv4{
+  position: absolute;
+  margin-top: 750px;
+  margin-left: 1200px;
+
+}
+
+.ball4 {
+
+  display: block;
+  background: black;
+  margin: 0;
+  border-radius: 50%;
+  height: 220px;
+  width: 220px;
+  background: radial-gradient(circle at 100px 20px, #a5a5a5, #000);
+}
+
+.ball4 .shadow4 {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+  transform: rotateX(90deg) translateZ(-150px);
+}
+
+.ball4:hover  {
+  border-radius: 50%;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 300px;
+  height: 300px;
+  background: #13CF93;
+  color: black;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+  border: 5px solid #3eac89;
+}
+
+.ball4:hover p {
+  display:block;
+  font-size: 2rem;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+.ball4 p {
+  display: none;
+}
+
+/* Sphere Five */
+.ballDiv5{
+  position: absolute;
+  margin-top: 1300px;
+  margin-left: 1100px;
+}
+
+.ball5 {
+  display: block;
+  background: black;
+  margin: 0;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background: radial-gradient(circle at 100px 20px, #a5a5a5, #000);
+}
+.ball5 .shadow5 {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+  transform: rotateX(90deg) translateZ(-150px);
+}
+
+.ball5:hover  {
+  border-radius: 50%;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 200px;
+  height: 200px;
+  background: #13CF93;
+  color: black;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+  border: 5px solid #3eac89;
+}
+
+.ball5:hover p {
+  display:block;
+  font-size: 2rem;
+  margin-top: 60px;
+  padding: 10px;
+}
+
+.ball5 p {
+  display: none;
+}
+
+/* Sphere Six */
+.ballDiv6{
+  position: absolute;
+  margin-top: 1550px;
+  margin-left: 150px;
+}
+
+.ball6 {
+  display: block;
+  background: black;
+  margin: 0;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  background: radial-gradient(circle at 10px 200px, #a5a5a5, #000);
+}
+
+.ball6 .shadow6 {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+  transform: rotateX(90deg) translateZ(-150px);
+}
+
+.ball6:hover  {
+  border-radius: 50%;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 300px;
+  height: 300px;
+  background: #13CF93;
+  color: black;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+  border: 5px solid #3eac89;
+}
+
+.ball6:hover p {
+  display:block;
+  font-size: 1.7rem;
+  margin-top: 100px;
+  margin-left: 5px;
+  padding: 10px;
+}
+
+.ball6 p {
+  display: none;
+}
+
+/* Sphere Seven */
+.ballDiv7{
+  position: absolute;
+  margin-top: 2100px;
+  margin-left: 1200px;
+
+}
+
+.ball7 {
+
+  display: block;
+  background: black;
+  margin: 0;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background: radial-gradient(circle at 100px 20px, #a5a5a5, #000);
+}
+
+.ball7 .shadow7 {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+  transform: rotateX(90deg) translateZ(-150px);
+}
+
+.ball7:hover  {
+  border-radius: 50%;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 200px;
+  height: 200px;
+  background: #13CF93;
+  color: black;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+  border: 5px solid #3eac89;
+}
+
+.ball7:hover p {
+  display:block;
+  font-size: 2rem;
+  margin-top: 60px;
+  padding: 10px;
+}
+
+.ball7 p {
+  display: none;
+}
+
+/* Sphere Eight */
+.ballDiv8{
+  position: absolute;
+  margin-top: 2600px;
+  margin-left: -30px;
+
+}
+
+.ball8 {
+  display: block;
+  background: black;
+  margin: 0;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  background: radial-gradient(circle at 10px 30px, #a5a5a5, #000);
+}
+
+.ball8 .shadow8 {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+  transform: rotateX(90deg) translateZ(-150px);
+}
+
+.ball8:hover  {
+  border-radius: 50%;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 250px;
+  height: 250px;
+  background: #13CF93;
+  color: black;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+  border: 5px solid #3eac89;
+}
+
+.ball8:hover p {
+  display:block;
+  font-size: 1.6rem;
+  margin-top: 100px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.ball8 p {
+  display: none;
+}
+
+/* Sphere Nine */
+.ballDiv9{
+  position: absolute;
+  margin-top: 3300px;
+  margin-left: 1300px;
+
+}
+
+.ball9 {
+
+  display: block;
+  background: black;
+  margin: 0;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  background: radial-gradient(circle at 10px 50px, #a5a5a5, #000);
+}
+
+.ball9 .shadow9 {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+  transform: rotateX(90deg) translateZ(-150px);
+}
+
+.ball9:hover  {
+  border-radius: 50%;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 200px;
+  height: 200px;
+  background: #13CF93;
+  color: black;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+  border: 5px solid #3eac89;
+}
+
+.ball9:hover p {
+  display:block;
+  font-size: 1.6rem;
+  margin-top: 60px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.ball9 p {
+  display: none;
+}
+
+/* Sphere Ten */
+.ballDiv10{
+  position: absolute;
+  margin-top: 3600px;
+  margin-left: -10px;
+}
+
+.ball10 {
+  display: block;
+  background: black;
+  margin: 0;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  background: radial-gradient(circle at 100px 40px, #a5a5a5, #000);
+}
+
+.ball10 .shadow10 {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+  transform: rotateX(90deg) translateZ(-150px);
+}
+
+.ball10:hover  {
+  border-radius: 50%;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 300px;
+  height: 300px;
+  background: #13CF93;
+  color: black;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+  border: 5px solid #3eac89;
+}
+
+.ball10:hover p {
+  display:block;
+  font-size: 1.9rem;
+  margin-top: 90px;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+.ball10 p {
+  display: none;
+}
+
+/* Sphere Eleven */
+.ballDiv11{
+  position: absolute;
+  margin-top: 4000px;
+  margin-left: 1050px;
+
+}
+
+.ball11 {
+
+  display: block;
+  background: black;
+  margin: 0;
+  border-radius: 50%;
+  height: 260px;
+  width: 260px;
+  background: radial-gradient(circle at 200px 40px, #a5a5a5, #000);
+}
+.ball11 .shadow11 {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+  transform: rotateX(90deg) translateZ(-150px);
+}
+
+.ball11:hover  {
+  border-radius: 50%;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 260px;
+  height: 260px;
+  background: #13CF93;
+  color: black;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+  border: 5px solid #3eac89;
+}
+
+.ball11:hover img {
+  display:block;
+  width: 265px;
+  height: auto; 
+  filter: grayscale(1);
+  border-radius: 50%;
+}
+
+.ball11 img {
+  display: none;
+}
+
+
+/* Sphere Sixteen */
+.ballDiv16{
+  position: absolute;
+  margin-top: 4300px;
+  margin-left: 65px;
+}
+
+.ball16 {
+  display: block;
+  background: black;
+  margin: 0;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  background: radial-gradient(circle at 80px 40px, #a5a5a5, #000);
+}
+
+.ball16 .shadow16 {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+  transform: rotateX(90deg) translateZ(-150px);
+}
+
+.ball16:hover  {
+  border-radius: 50%;
+  margin-top: -30px;
+  margin-left: -40px;
+  width: 300px;
+  height: 300px;
+  background: #13CF93;
+  color: black;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+  border: 5px solid #3eac89;
+}
+
+.ball16:hover p {
+  display:block;
+  font-size: 1.9rem;
+  margin-top: 90px;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+.ball16 p {
+  display: none;
+}
+
+/* Sphere Seventeen */
+.ballDiv17{
+  position: absolute;
+  margin-top: 4850px;
+  margin-left: 1265px;
+}
+
+.ball17 {
+  display: block;
+  background: black;
+  margin: 0;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  background: radial-gradient(circle at 80px 40px, #a5a5a5, #000);
+}
+
+.ball17 .shadow17 {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+  transform: rotateX(90deg) translateZ(-150px);
+}
+
+.ball17:hover  {
+  border-radius: 50%;
+  margin-top: -30px;
+  margin-left: -40px;
+  width: 300px;
+  height: 300px;
+  background: #13CF93;
+  color: black;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+  border: 5px solid #3eac89;
+}
+
+.ball17:hover p {
+  display:block;
+  font-size: 1.9rem;
+  margin-top: 90px;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+.ball17 p {
+  display: none;
+}
+
+
+/* Hiding Mobile Spheres */
+.ball12 {
+  display: none;
+}
+
+.ball13 {
+  display: none;
+}
+
+.ball14 {
+  display: none;
+}
+
+.ball15 {
+  display: none;
+}
+
+
+@media only screen and (max-width: 599px) {
+
+  /* Sphere Twelve */
+  .ballDiv12{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 380px;
+    display: block;
+  }
+
+  .ball12 {
+    display: block;
+    background: black;
+    margin: 0;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background: radial-gradient(circle at 0px 10px, #a5a5a5, #000);
+  }
+
+  .ball12 .shadow12 {
+    background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+    transform: rotateX(90deg) translateZ(-150px);
+  }
+
+  /* Sphere Thirteen */
+  .ballDiv13{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: -350px;
+    display: block;
+  
+  }
+  
+  .ball13 {
+    display: block;
+    background: black;
+    margin: 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background: radial-gradient(circle at 100px 10px, #a5a5a5, #000);
+  }
+  
+  .ball13 .shadow13 {
+    background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+    transform: rotateX(90deg) translateZ(-150px);
+  }
+
+  /* Sphere Fourteen */
+  .ballDiv14{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: -80px;
+    display: block;
+  }
+  
+  .ball14 {
+    display: block;
+    background: black;
+    margin: 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background: radial-gradient(circle at 100px 10px, #a5a5a5, #000);
+  }
+
+  .ball14 .shadow14 {
+    background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+    transform: rotateX(90deg) translateZ(-150px);
+  }
+
+  /* Sphere Fifteen */
+  .ballDiv15{
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 300px;
+    display: block;
+  }
+
+  .ball15 {
+    display: block;
+    background: black;
+    margin: 0;
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    background: radial-gradient(circle at 100px 150px, #a5a5a5, #000);
+  }
+
+  .ball15 .shadow15 {
+    background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
+    transform: rotateX(90deg) translateZ(-150px);
+  }
+
+}  

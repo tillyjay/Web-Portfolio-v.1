@@ -1,0 +1,132 @@
+
+/* Font Families */
+@font-face
+{
+    src:url(/Fonts/Gilroy-Regular.ttf);
+    font-family:'Gilroy-Regular';
+}
+
+@font-face
+{
+    src:url(/Fonts/Gilroy-Bold.ttf);
+    font-family:'Gilroy-Bold';
+}
+
+@font-face
+{
+    src:url(/Fonts/Gilroy-SemiBold.ttf);
+    font-family:'Gilroy-SemiBold';
+}
+
+@font-face
+{
+    src:url(/Fonts/Gilroy-Light.ttf);
+    font-family:'Gilroy-Light';
+}
+
+
+/* Work Mobile Styles */
+@media only screen and (max-width: 599px) {
+
+    html, body {
+        display: flex;
+        height: 100vh;
+        background-color:  #F1FAEE;
+        font-family: Gilroy-SemiBold;
+    }
+
+    div#workContainer {
+        display: flex; 
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        background-color:  #F1FAEE;
+        height: 120vh;
+        width: 100%;
+    }
+
+    #workContainer h2 {
+        margin-top: 20%;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-family: Gilroy-Bold;
+        font-size: 15vw;
+        padding: 15px;
+        align-self: flex-start;
+    }
+
+    #workContainer ul.card-list {
+        height: 100vh;
+        margin-right: 5%;  
+    }
+
+    #workContainer li.card {
+        flex: 1 1 350px;
+        margin-left: 5%; 
+        position: relative;
+        margin-bottom: 4%;
+    }
+
+    #workContainer img.card-img {
+        max-width: 100%;
+        border-radius: 20px;
+        border: 3px solid #2b2824;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    }
+
+    #workContainer img.card-img:hover {
+        max-width: 100%;
+        border-radius: 20px;
+        filter: none;
+        border: 3px solid #2b2824;
+    }
+
+    .workTitle {
+        font-family: Gilroy-Regular;
+        font-weight: bolder;
+        font-size: 1.5rem;
+        margin: 0px 10% 15% 10%;
+    }
+
+    #spacer h2 {
+        margin-top: 20px;
+        font-size: 2rem;
+        display: hidden;  
+        color:  #F1FAEE;
+    }
+
+
+    /* Footer Mobile Styles */
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        font-family: Gilroy-Regular;
+        padding: 5px;
+        width: 92%;
+        margin: 1% 2% 1% ;
+        display: flex; 
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        border: 3px solid #13CF93;
+        background-color: #F1FAEE;
+    }
+
+    .footerIcon {
+        font-size: 8vw;
+        padding-right: 10px;
+        color: black;
+    }
+
+    .footerIcon:hover {
+        color: #13CF93;
+    }
+
+    .footerEle {
+        font-size: 5vw;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+}

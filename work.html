@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tilly Jay Portfolio Work</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="navBar.css">
+    <link rel="stylesheet" href="workMobile.css">
+    <link rel="stylesheet" href="modal.css">
+    <style>
+        @font-face
+    {
+        src:url(Gilroy-Regular.ttf);
+        font-family:'Gilroy-Regular';
+    }
+
+    @font-face
+    {
+        src:url(Gilroy-Bold.ttf);
+        font-family:'Gilroy-Bold';
+    }
+
+    @font-face
+    {
+        src:url(Gilroy-SemiBold.ttf);
+        font-family:'Gilroy-SemiBold';
+    }
+
+    @font-face
+    {
+        src:url(Gilroy-Light.ttf);
+        font-family:'Gilroy-Light';
+    }
+    </style>
+</head>
+
+
+<body>
+<!-- navbar mobile-->  
+<nav>
+    <div class="navbar">
+        <div class="container nav-container">
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>  
+
+            <div class="menu-items">
+                <li><a href="index.html">home</a></li>
+                <li><a href="work.html">work</a></li>
+                <li><a href="resume.html">resume</a></li>
+                <li><a href="aboutMe.html">about me</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+<!--work section-->
+<main>
+    <div id="workContainer">
+        <h2>Work</h2>
+            <ul class="card-list">
+                <li class="card" id="cardOne">
+                    <img src="work1.jpg" alt="Cat Generating App" class="card-img">
+                </li>
+                <h3 class="workTitle">Cat Generating App</h3>
+                <div class="modalContainer">
+                    <div id="modalWindowOne" class="modal">
+                        <span class="close">&times;</span>
+                    <div class="modal-content">
+                        <img class="modalImg" src="work1.jpg">
+                        <div class="modalText">
+                            <h1>Cat Generating App</h1>
+                        <p class="modalP">
+                            The application is an interface where the user can select three different 
+                            cat characteristics and the app will match you with the perfect cat.
+                            The site is desktop and mobile friendly.
+                            <br><br>
+                            The app was created using JavaScript’s fetch function to grab data from an API, 
+                            sort and filter it with three separate JS array methods to return a selected piece of data.
+                            The app also leveraged a jQuery library and was styled entirely using SASS.
+                            <br>
+                            <br>
+                            Working with an API was a challenging new experience but was a great exercise in working with data. 
+                            Additionally, this was my first-time using SASS; a bit of a learning curve, but I now understand why 
+                            incorporating variables into styling can be super beneficial in writing concise code.  
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+        
+                <li class="card" id="cardTwo">
+                    <img src="work2.jpg" alt="Social Media Feed"class="card-img">
+                </li>
+                <h3 class="workTitle">Social Media Feed</h3>
+                <div class="modalContainer">
+                    <div id="modalWindowTwo" class="modal">
+                        <span class="close">&times;</span>
+                    <div class="modal-content">
+                        <img class="modalImg" src="work2.jpg">
+                        <div class="modalText">
+                            <h1>Social Media Feed</h1>
+                        <p class="modalP">
+                            This application is a dynamic social media feed with different users who each had unique administrative permissions for the feed, 
+                            such as the ability to add users, or moderate posts.  
+                            <br>
+                            <br>
+                            Based off an ERD connected to a dynamic MySQL database, a customizable interface was created using Php and the Laravel framework. 
+                            The application also included a touch of JavaScript for form validation and was styled using the Bootstrap framework. 
+                            <br>
+                            <br>
+                            This application pushed me out of my comfort zone by combining various techniques and frameworks. It was really cool to work with not only front-end code, 
+                            but also pull back and work with back-end development.   
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <li class="card" id="cardThree">
+                    <img src="work3.jpg" alt="Principles of Design Infographic" class="card-img"> 
+                </li> 
+                <h3 class="workTitle">Principles of Design Infographic</h3>
+                <div id="modalContainer">
+                    <div id="modalWindowThree" class="modal">
+                        <span class="close">&times;</span>
+                    <div class="modal-content">
+                        <img class="modalImg" src="work3.jpg">
+                        <div class="modalText">
+                            <h1>Principles of Design Infographic</h1>
+                            <p class="modalP">
+                                This infographic was created to explain and provide examples of key design principles. The infographic included boxed information with graphic examples 
+                                of each principle upon hovering over a section.
+                                <br>
+                                <br> 
+                                Although rather simplistic in skill only using HTML and CSS for styling, each design principle was written in my own words and required me to think critically about how these 
+                                principles affect web development. 
+                                <br>
+                                <br>
+                                Regardless of the simplicity, this infographic was perfect for practicing flexbox and learning more about effective design. 
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <li class="card" id="cardFour">
+                    <img src="work4.jpg" alt="Flight Tracking App" class="card-img">
+                </li>
+                <h3 class="workTitle">Flight Tracking App</h3>
+                <div id="modalContainer">
+                    <div id="modalWindowFour" class="modal">
+                        <span class="close">&times;</span>
+                    <div class="modal-content">
+                        <img class="modalImg" src="work4.jpg">
+                        <div class="modalText">
+                        <h1>Flight Tracking App</h1>
+                        <p class="modalP">
+                            This application was designed to repeatedly fetch real-time flight transit 
+                            data from an API, then filter the data to only include Canadian data points. 
+                            The Canadian data points are then displayed on a map using Leaflet.js.    
+                            <br>
+                            <br>
+                            JavaScript was used to fetch fresh JSON data from an API every 3.5 seconds and filter it based on the country of origin.
+                            Using the map method to transform the filtered data into a geoJSON object, 
+                            and then output to DOM values of the flight properties using template literals and interpolation.
+                            <br>
+                            <br>
+                            This application helped to familiarize myself with the DOM and working with real time dynamic data. It also helped me to have 
+                            a better understanding of objects and how to manipulate them. 
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <li class="card" id="cardFive">
+                    <img src="work5.jpg" alt="HR Employee Database" class="card-img">
+                </li>
+                <h3 class="workTitle">HR Employee Database</h3>
+                <div id="modalContainer">
+                    <div id="modalWindowFive" class="modal">
+                        <span class="close">&times;</span>
+                    <div class="modal-content">
+                        <img class="modalImg" src="work5.jpg">
+                        <div class="modalText">
+                            <h1>HR Employee Database</h1>
+                        <p class="modalP">
+                            This website is modeled after an HR Employee database. The site includes an authenticated user login to an 
+                            interface that allows for the viewing, searching, inserting, updating, and deleting of employee records. 
+                            There is even an opt-in/opt-out of employee benefits and pagination of employee records. 
+                            <br>
+                            <br>
+                            PHP was used to create the site (along with all of the modification capabilities) and connects to a MySQL 
+                            database. Throughout the site Javascript was used to create forms (such as the user login) with the appropriate 
+                            client side validation and hashed passwords. 
+                            <br>
+                            <br>
+                            If I were to recreate this site, I would clean up my code by making the information within the JavaScript
+                            forms fixed variables and not changeable data fields. This would ensure that updating and deleting functions 
+                            would always correspond with correct employee number, without room for human error.    
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <li class="card" id="cardSix">
+                    <img src="work6.jpg" alt="Pinterest Styled Website" class="card-img"> 
+                </li>
+                <h3 class="workTitle">Pinterest Styled Website</h3>
+                <div id="modalContainer">
+                    <div id="modalWindowSix" class="modal">
+                        <span class="close">&times;</span>
+                    <div class="modal-content">
+                        <img class="modalImg" src="work6.jpg">
+                        <div class="modalText">
+                            <h1>Pinterest Styled Website</h1>
+                        <p class="modalP">
+                            This site imitates the popular Pinterest website with its search bar menu and page full of images 
+                            that each lead to a topic in more detail. The site even includes a user page, as well as the ability
+                            to favourite and download images. The site is desktop and mobile friendly. 
+                            <br>
+                            <br>
+                            This site is pure HTML and CSS, with the main focus on the use of CSS cards in various styles
+                            throughout the pages. The homepage also transforms the cards making them clickable links with a 
+                            hover overlay effect. All positioning was completed using Flexbox. 
+                            <br>
+                            <br>
+                            It was a lot of fun to replicate the fundamentals of a site and then add my own personal flair. 
+                            I reall enjoy being given specifications with creative liberties.
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div id="spacer">
+                    <h2>SPACER</h2>  
+                </div>
+            </ul>  
+    </div>
+</main>
+
+<!--footer-->    
+<footer>
+    <a href="https://github.com/tillyjay"><i class="fa-brands fa-square-github footerIcon"></i></a>
+    <a href="https://www.linkedin.com/in/tilly-campbell/"><i class="fa-brands fa-linkedin footerIcon"></i></a>
+    <p class="footerEle">tillyjay2023</p>
+</footer>
+
+<script src="modal.js"></script>
+</body>
+
+</html>
