@@ -40,6 +40,8 @@
   border: 3px solid #13CF93;
   font-weight: bold;
   color:#13CF93;
+  font-size: 1.5vw;
+  transition: all 180ms ease 0s;
 }    
 
 .menu {
@@ -103,14 +105,12 @@
     margin-bottom: 25px;
   }
 
-  .navbar .nav-container a:hover{
-    color: #13CF93;
-    text-decoration: underline;
-  }
-
-  .navbar .nav-container a:active{
-    color: #13CF93;
-    text-decoration: underline;
+  .navbar a:hover, .navbar a:focus, .navbar a.active{
+    border: 3px solid #13CF93;
+    font-weight: bold;
+    color:#13CF93;
+    font-size: 2rem;
+    padding: 3px;
   }
     
   .nav-container {

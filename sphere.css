@@ -34,6 +34,7 @@
   vertical-align: middle;
   text-align: center;
   border: 5px solid #3eac89;
+  transition: all 180ms ease 0s;
 }
 
 .ball1:hover p {
@@ -80,6 +81,7 @@
   vertical-align: middle;
   text-align: center;
   border: 5px solid #3eac89;
+  transition: all 180ms ease 0s;
 }
 
 .ball2:hover p {
@@ -138,6 +140,7 @@
   text-align: center;
   border: 5px solid #3eac89;
   padding: 15px;
+  transition: all 180ms ease 0s;
 }
 
 .ball3:hover p {
@@ -197,6 +200,7 @@
   vertical-align: middle;
   text-align: center;
   border: 5px solid #3eac89;
+  transition: all 180ms ease 0s;
 }
 
 .ball4:hover p {
@@ -243,6 +247,7 @@
   vertical-align: middle;
   text-align: center;
   border: 5px solid #3eac89;
+  transition: all 180ms ease 0s;
 }
 
 .ball5:hover p {
@@ -290,6 +295,7 @@
   vertical-align: middle;
   text-align: center;
   border: 5px solid #3eac89;
+  transition: all 180ms ease 0s;
 }
 
 .ball6:hover p {
@@ -340,6 +346,7 @@
   vertical-align: middle;
   text-align: center;
   border: 5px solid #3eac89;
+  transition: all 180ms ease 0s;
 }
 
 .ball7:hover p {
@@ -388,6 +395,7 @@
   vertical-align: middle;
   text-align: center;
   border: 5px solid #3eac89;
+  transition: all 180ms ease 0s;
 }
 
 .ball8:hover p {
@@ -438,6 +446,7 @@
   vertical-align: middle;
   text-align: center;
   border: 5px solid #3eac89;
+  transition: all 180ms ease 0s;
 }
 
 .ball9:hover p {
@@ -486,6 +495,7 @@
   vertical-align: middle;
   text-align: center;
   border: 5px solid #3eac89;
+  transition: all 180ms ease 0s;
 }
 
 .ball10:hover p {
@@ -535,6 +545,7 @@
   vertical-align: middle;
   text-align: center;
   border: 5px solid #3eac89;
+  transition: all 180ms ease 0s;
 }
 
 .ball11:hover img {
@@ -584,6 +595,7 @@
   vertical-align: middle;
   text-align: center;
   border: 5px solid #3eac89;
+  transition: all 180ms ease 0s;
 }
 
 .ball16:hover p {
@@ -632,6 +644,7 @@
   vertical-align: middle;
   text-align: center;
   border: 5px solid #3eac89;
+  transition: all 180ms ease 0s;
 }
 
 .ball17:hover p {
