@@ -2,7 +2,7 @@
 
 window.onresize = function indexSnap() {
     if ($(window).width() > 650) {
-        window.location = "index.html#workSection"
+        window.location = "index.html#aboutSection"
     }
   }
 

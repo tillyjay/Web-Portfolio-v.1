@@ -466,6 +466,7 @@
   position: absolute;
   margin-top: 3600px;
   margin-left: -10px;
+  z-index: -1;
 }
 
 .ball10 {
