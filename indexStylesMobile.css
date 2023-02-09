@@ -48,6 +48,10 @@
 
     /* Display None */
 
+    #thumbnail {
+        display: none;
+    }
+
     .navbarDesk {
         display: none;
     }

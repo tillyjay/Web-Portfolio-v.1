@@ -29,6 +29,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    z-index: -10;
 }
 
 body {
@@ -78,6 +79,10 @@ div.titleDiv h1 {
 #webTitle {
     margin-right: 0px;
 }    
+
+#thumbnail {
+    display:none;
+}
 
 
 /* Work Section */
@@ -203,7 +208,6 @@ div#workContainerCont {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
 }
 
 #aboutMe {
@@ -216,6 +220,9 @@ div#workContainerCont {
     margin-top: 25px;
     max-width: 620px;
     z-index: 10;
+    background-color:  #F1FAEE;
+    padding: 15px;
+    border-radius: 20px;
 } 
 
 #aboutText p {

@@ -466,7 +466,7 @@
   position: absolute;
   margin-top: 3600px;
   margin-left: -10px;
-  z-index: -1;
+  z-index: 1;
 }
 
 .ball10 {
@@ -514,13 +514,12 @@
 /* Sphere Eleven */
 .ballDiv11{
   position: absolute;
-  margin-top: 4000px;
+  margin-top: 4100px;
   margin-left: 1050px;
-
+  z-index: 11;
 }
 
 .ball11 {
-
   display: block;
   background: black;
   margin: 0;
@@ -529,6 +528,7 @@
   width: 260px;
   background: radial-gradient(circle at 200px 40px, #a5a5a5, #000);
 }
+
 .ball11 .shadow11 {
   background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
   transform: rotateX(90deg) translateZ(-150px);
