@@ -83,7 +83,7 @@
   /* Profile Image */
   .ballDiv1{
     position: absolute;
-    margin-top:  1150px;
+    margin-top:  1180px;
     margin-left: 150px;
   }
       
@@ -134,7 +134,7 @@
     display: hidden;
   }
   
-  p#textGap {
+  p.textGap {
       display: hidden;
       width: 50px;
   }
