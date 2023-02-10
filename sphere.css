@@ -145,7 +145,6 @@
 
 .ball3:hover p {
   display:block;
-  margin-left: 0px;
   margin-top: 80px;
   padding: 10px;
   font-size: 1.5rem;
@@ -217,8 +216,8 @@
 /* Sphere Five */
 .ballDiv5{
   position: absolute;
-  margin-top: 1300px;
-  margin-left: 1100px;
+  top: 1300px;
+  left: 1100px;
 }
 
 .ball5 {
@@ -415,11 +414,9 @@
   position: absolute;
   margin-top: 3300px;
   margin-left: 1300px;
-
 }
 
 .ball9 {
-
   display: block;
   background: black;
   margin: 0;

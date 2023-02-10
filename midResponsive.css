@@ -1,0 +1,227 @@
+
+
+/* Responsive Mid-range Styles */
+@media only screen and (min-width: 651px) and (max-width: 1300px)  {
+
+    /* Basic Styles */
+    html {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+
+    body {
+        width: 100vw;
+        min-height: 100vh;
+    }
+
+    .flex-container {
+        display: flex; 
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section {
+        width: 100vw;
+        min-height: 100vh;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Nav Bar Styles */
+    .navbarDesk li.nav-item {
+        display: flex;
+        font-size: 1.8vw;
+        margin: 10px;
+    }
+      
+    .navbarDesk .nav-item a {
+        font-weight: bold;
+        color: black;
+        padding: 5px;
+        text-decoration: none;
+    }
+      
+    .navbarDesk .nav-item a:hover {
+        border: 3px solid #13CF93;
+        font-weight: bold;
+        color:#13CF93;
+        font-size: 2.2vw;
+        transition: all 180ms ease 0s;
+    }  
+
+    
+    /* Home Section */  
+    #homeSection {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    #homeContainer {
+        width: 100%;
+    }
+
+    .titleDiv {
+        position: absolute;
+        top: 250px;
+        margin-left: 8%;
+    }
+
+    #webTitle {
+        margin-top: 35px;
+    }
+
+
+    /* Work Section */
+    #workSection {
+        min-height: 100vh;
+    }
+
+    .modal-content {
+        margin-top: 100px;
+    }
+
+
+    /* Resume Section */
+    #resumeSection {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    #resumeContainer {
+        display: flex; 
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-flow: column nowrap;
+        z-index: 1;
+        background-color:  #F1FAEE;
+        height: 100%;
+        width: 70%;
+        margin-left: 10%;
+        
+    }
+
+    #resumeSection h1 {
+        margin-left: 3.5%;
+        font-size: 4rem;
+    }
+
+    .leftCol {
+        display: flex; 
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 1%;
+        margin-right: 3%;
+        width: 45%;
+        z-index: 10;
+    }
+
+    /* Resume Education */
+    .edContent {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .edRightCol {
+        width: 90%;
+       margin-left: 0px; 
+    }
+
+    #education h2 {
+        margin-top: 0px;
+        font-size: 1.8rem;
+        padding-bottom: 20px;
+        font-family: Gilroy-SemiBold;
+    }
+
+    /* Resume Section Continued */
+    #resumeContainerCont {
+        width: 50%;
+        margin-left: 0%;
+    }    
+
+
+    /* About Me Section */
+    #aboutSection {
+        width: 100%;
+        background-color:  #F1FAEE;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }    
+
+    #aboutText {
+        margin-top: 5px;
+        max-width: 600px;
+    } 
+
+    #aboutText p {
+        font-family: Gilroy-Regular;
+        font-size:  1.1rem;
+        font-weight: bolder;
+        line-height: 24px;
+    }
+
+    #thirdAP {
+        margin-right: 40px;
+    }
+    
+    #fourthAP {
+        margin-right: 40px;
+    }
+
+
+    /* Contact Section */
+
+    #hi {
+        font-family: Gilroy-Bold;
+        font-size: 5vw;
+        text-align: center;
+    }
+    
+    label {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    input {
+        height: 30px;
+        padding: 8px;
+    }
+
+    #message {
+        margin-top: 35px;
+        width: 410px;
+    }
+
+    ::placeholder {
+        font-size: 20px;
+        padding: 5px;
+    }   
+    
+    #submit {
+        font-size: 25px;
+        width: 70px;
+        height: 70px;
+        align-self:center;
+    }
+
+
+    /* Footer Section */
+    .footerIcon {
+        font-size: 3.1vw;
+        padding-right: 10px;
+        color: black;
+    }
+
+
+}
+
+
+

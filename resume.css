@@ -10,7 +10,6 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-flow: column nowrap;
-    z-index: 1;
     background-color:  #F1FAEE;
     height: 100%;
     width: 70%;
