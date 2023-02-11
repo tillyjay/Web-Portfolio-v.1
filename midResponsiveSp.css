@@ -82,8 +82,8 @@
 
     /* Sphere Five */
     .ballDiv5 {
-        top: 1450px;
-        left: 900px;
+        top: 1400px;
+        left: 1000px;
     }
 
     /* Sphere Six */
@@ -94,8 +94,8 @@
 
     /* Sphere Seven */
     .ballDiv7 {
-        top: 100px;
-        left:-200px;
+        top: 80px;
+        left:-100px;
         z-index: 2;
     }
 
