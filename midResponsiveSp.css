@@ -155,13 +155,13 @@
 
     /* Sphere Seventeen */
     .ballDiv17 {
-        top: 100px;
+        top: 130px;
         left: -300px;
     }
 
     .ball17 {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
     }
 
     .ball17:hover {
