@@ -153,7 +153,7 @@ if($_POST) {
     .'From: ' . $visitor_email . "\r\n";
      
     if(mail($recipient, $email_title, $email_body, $headers)) {
-        echo "<p>Thanks $visitor_name for dropping me a line. Expect a reply soon.</p>";
+        echo "<p>Thanks .$visitor_name for dropping me a line. Expect a reply soon.</p>";
     } else {
         echo '<p>So sorry, something seems to have gone wrong</p>';
     }
