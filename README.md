@@ -1,7 +1,7 @@
-#web portflio v.1
+# web portflio v.1
 This project serves as a basic showcase of my work, providing visitors with insight into my skills, work samples, resume, and personal background. As a student at NSCC, I am eager to enhance my coding abilities and create a more robust portfolio in the future. For this particular project, I utilized HTML, CSS (employing flexbox for layout), and JavaScript.
 
-### Features 
+## Features 
 - Work Samples: Explore a collection of my coding projects and work samples.
 - Resume: View my professional resume to learn more about my skills and experiences.
 - About Me: Get to know me better through a brief introduction and insight into my background.
