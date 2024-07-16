@@ -528,7 +528,7 @@
 
 .ball11 .shadow11 {
   background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
-  transform: rotateX(90deg) translateZ(-150px);
+  transform: rotateX(90deg) translateZ(-10px);
 }
 
 .ball11:hover  {
