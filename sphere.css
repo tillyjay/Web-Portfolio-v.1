@@ -512,8 +512,8 @@
 .ballDiv11{
   position: absolute;
   margin-top: 4100px;
-  margin-left: 800px;
-  z-index: -11;
+  margin-left: 1100px;
+  z-index: 9;
 }
 
 .ball11 {
