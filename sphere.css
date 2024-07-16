@@ -512,8 +512,8 @@
 .ballDiv11{
   position: absolute;
   margin-top: 4100px;
-  margin-left: 1050px;
-  z-index: 11;
+  margin-left: 800px;
+  z-index: -11;
 }
 
 .ball11 {
@@ -528,7 +528,7 @@
 
 .ball11 .shadow11 {
   background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
-  transform: rotateX(90deg) translateZ(-10px);
+  transform: rotateX(90deg) translateZ(-150px);
 }
 
 .ball11:hover  {
