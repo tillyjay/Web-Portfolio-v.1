@@ -117,11 +117,13 @@
   }
       
   .ball1:hover img {
-    display:block;
-    width: 300px;
-    height: auto; 
-    filter: grayscale(1);
-    border-radius: 50%;
+  display:flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   }
       
   .ball1 img {
