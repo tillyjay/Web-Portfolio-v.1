@@ -84,11 +84,6 @@ div.titleDiv h1 {
     display:none;
 }
 
-#spheres {
-    position: relative; 
-    z-index: 0; 
-    margin: 0 auto;
-}
 
 /* Work Section */
 #workSection {

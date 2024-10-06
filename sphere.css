@@ -312,13 +312,11 @@
 /* Sphere Seven */
 .ballDiv7{
   position: absolute;
-  margin-top: 2100px;
-  margin-left: 1200px;
-
+  margin-top: 2200px;
+  margin-left: 1150px;
 }
 
 .ball7 {
-
   display: block;
   background: black;
   margin: 0;
@@ -564,7 +562,7 @@
 /* Sphere Sixteen */
 .ballDiv16{
   position: absolute;
-  margin-top: 4300px;
+  margin-top: 4500px;
   margin-left: 65px;
 }
 
@@ -614,7 +612,7 @@
 .ballDiv17{
   position: absolute;
   margin-top: 4850px;
-  margin-left: 1265px;
+  margin-left: 1300px;
 }
 
 .ball17 {
