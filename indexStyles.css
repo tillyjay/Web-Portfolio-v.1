@@ -199,7 +199,6 @@ div#workContainerCont {
     #resumeContainer  {
       margin-bottom: 200px;
     }
-
 }
 
 
@@ -261,6 +260,12 @@ div#workContainerCont {
 
 #fourthAP {
     margin-right: 45px;
+}
+
+@media (max-width: 920px) and (min-width: 650px) {
+    .aboutContainer  {
+      margin-top: 250px;
+    }
 }
 
 
