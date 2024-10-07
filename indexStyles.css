@@ -217,7 +217,6 @@ div#workContainerCont {
 }
 
 
-
 /* Download Resume Section */
 #downloadSection {
     padding: 50px 0;
@@ -232,19 +231,22 @@ div#workContainerCont {
 }
 
 #downloadButton {
-    background-color: #097754; 
+    background-color: #0eb782; 
     color: white; 
+    font-family: Gilroy-SemiBold;
     padding: 15px 30px; 
     border: none; 
-    border-radius: 5px; 
-    font-size: 1.2rem; 
+    border-radius: 50px; 
+    font-size: 1.5rem; 
     cursor: pointer; 
     transition: background-color 0.3s ease;
 }
 
 #downloadButton:hover {
-    background-color: #11cf93; 
+    background-color: #097754; 
 }
+
+  
 
 @media (max-width: 1410px) and (min-width: 650px) {
     #downloadContainer  {
