@@ -217,6 +217,43 @@ div#workContainerCont {
 }
 
 
+
+/* Download Resume Section */
+#downloadSection {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 200px;
+}
+
+#downloadContainer {
+    text-align: center;
+}
+
+#downloadButton {
+    background-color: #097754; 
+    color: white; 
+    padding: 15px 30px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 1.2rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+#downloadButton:hover {
+    background-color: #11cf93; 
+}
+
+@media (max-width: 1410px) and (min-width: 650px) {
+    #downloadContainer  {
+      margin-top: 100px;
+      margin-bottom: 0px;
+    }
+}
+
+
 /* About Me Section */
 #aboutSection {
     background-color:  #F1FAEE;
@@ -264,10 +301,9 @@ div#workContainerCont {
 
 @media (max-width: 920px) and (min-width: 650px) {
     .aboutContainer  {
-      margin-top: 250px;
+      margin-top: 150px;
     }
 }
-
 
 /* Contact Section */
 #contactSection {
