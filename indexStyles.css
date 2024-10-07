@@ -194,6 +194,28 @@ div#workContainerCont {
     border: 3px solid #2b2824;
 }
 
+/* Resume Section */
+@media (max-width: 920px) and (min-width: 780px) {
+    #resumeContainer  {
+      margin-bottom: 200px;
+    }
+
+}
+
+
+@media (max-width: 779px) and (min-width: 715px) {
+    #resumeContainer  {
+      margin-bottom: 400px;
+    }
+
+}
+
+@media (max-width: 714px) and (min-width: 650px) {
+    #resumeContainer  {
+      margin-bottom: 600px;
+    }
+
+}
 
 
 /* About Me Section */
