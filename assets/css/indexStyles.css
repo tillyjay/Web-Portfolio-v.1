@@ -307,6 +307,7 @@ div#workContainerCont {
     }
 }
 
+
 /* Contact Section */
 #contactSection {
     background-color:  #F1FAEE;
@@ -380,6 +381,11 @@ input {
     color: #F1FAEE;
     border: 2px solid #F1FAEE;
     background-color: #13CF93;
+}
+@media (min-width: 1100px) {
+    .contactContainer  {
+      margin-right: 150px;
+    }
 }
 
 
