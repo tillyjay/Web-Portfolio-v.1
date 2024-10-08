@@ -1,8 +1,10 @@
-
-//when the page loads, ensure the navbar is closed
-window.onload = function() {
-    var navbarCheckbox = document.querySelector('.checkbox');
-    if (navbarCheckbox) {
-        navbarCheckbox.checked = false;  
+//wait until page is fully loaded
+document.addEventListener("DOMContentLoaded", function() {
+    //find checkbox that controls the mobile menu
+    const menuCheckbox = document.querySelector('.navbar input[type="checkbox"]');
+    
+    //if checkbox exists, close the menu (uncheck it) on page load
+    if (menuCheckbox) {
+        menuCheckbox.checked = false;
     }
-}
+});
