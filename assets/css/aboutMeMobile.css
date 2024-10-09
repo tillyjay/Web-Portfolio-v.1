@@ -130,11 +130,6 @@
     display: none;
   }
 
-  #spacer h2 {
-    position: absolute; 
-    font-size: 4rem;
-    display: hidden;
-  }
   
   p.textGap {
       display: hidden;
