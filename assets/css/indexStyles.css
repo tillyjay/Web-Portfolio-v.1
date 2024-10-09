@@ -164,6 +164,7 @@ div#workContainerCont {
     justify-content: center;
     align-items: center;
     background-color:  #F1FAEE;
+    z-index: 2;
 }
 
 #workContainerCont .row {
@@ -201,7 +202,7 @@ div#workContainerCont {
 }
 
 /* Resume Section Media Queries */
-/* @media (max-width: 920px) and (min-width: 780px) {
+ @media (max-width: 920px) and (min-width: 780px) {
     #resumeContainer  {
       margin-bottom: 200px;
     }
@@ -222,34 +223,34 @@ div#workContainerCont {
 
 }
 
-@media screen and (max-height: 790px) {
 
-
-} */
 
 @media screen and (max-height: 790px) {
-    /* Adjust the resume container to prevent overlap */
+    
     #resumeContainer, #resumeContainerCont {
-      padding-bottom: 100px; /* Adding padding to avoid content touching the edge */
+      padding-bottom: 100px; 
+
     }
   
-    /* Adjust margins and padding dynamically */
     #resumeContent1, #skills, #volunteer {
-      margin-bottom: 30px; /* Ensure enough spacing between sections */
+      margin-bottom: 350px; 
     }
-  
-    /* Adjust the download section to maintain space */
+    
+    #resumeSectionCont {
+      margin-top: 300px;
+    }
+
     #downloadSection {
       padding: 20px 0;
-      margin-bottom: 50px; /* Create space between the download section and preceding content */
+      margin-top: 150px; 
     }
-  
-    #downloadContainer {
-      margin-bottom: 30px; /* Additional margin for the download container */
+      #downloadContainer   {
+      margin-bottom: 30px;
     }
   }
-  
-  /* Additional width-based adjustments for responsiveness */
+
+
+  /* Resume Width Media Queries */
   @media (max-width: 920px) {
     #resumeContainer {
       margin-bottom: 150px;
@@ -277,10 +278,15 @@ div#workContainerCont {
     justify-content: center;
     align-items: center;
     max-height: 200px;
+
 }
 
 #downloadContainer {
     text-align: center;
+    z-index: 2;
+    background-color: #F1FAEE;
+    padding: 50px;
+    border-radius: 20px;
 }
 
 #downloadTitle{

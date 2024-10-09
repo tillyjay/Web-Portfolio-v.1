@@ -562,6 +562,7 @@
 /* Sphere Sixteen */
 .ballDiv16{
   position: absolute;
+  z-index: 1;
   margin-top: 4500px;
   margin-left: 65px;
 }
