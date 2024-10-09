@@ -50,6 +50,12 @@ section#mobileHome {
     display: none;
 }
 
+@media screen and (max-height: 790px) {
+    section {
+        margin-top: 200px;
+    }
+} 
+
 
 /* Section Home */  
 #homeSection {
@@ -194,8 +200,8 @@ div#workContainerCont {
     border: 3px solid #2b2824;
 }
 
-/* Resume Section */
-@media (max-width: 920px) and (min-width: 780px) {
+/* Resume Section Media Queries */
+/* @media (max-width: 920px) and (min-width: 780px) {
     #resumeContainer  {
       margin-bottom: 200px;
     }
@@ -215,6 +221,53 @@ div#workContainerCont {
     }
 
 }
+
+@media screen and (max-height: 790px) {
+
+
+} */
+
+@media screen and (max-height: 790px) {
+    /* Adjust the resume container to prevent overlap */
+    #resumeContainer, #resumeContainerCont {
+      padding-bottom: 100px; /* Adding padding to avoid content touching the edge */
+    }
+  
+    /* Adjust margins and padding dynamically */
+    #resumeContent1, #skills, #volunteer {
+      margin-bottom: 30px; /* Ensure enough spacing between sections */
+    }
+  
+    /* Adjust the download section to maintain space */
+    #downloadSection {
+      padding: 20px 0;
+      margin-bottom: 50px; /* Create space between the download section and preceding content */
+    }
+  
+    #downloadContainer {
+      margin-bottom: 30px; /* Additional margin for the download container */
+    }
+  }
+  
+  /* Additional width-based adjustments for responsiveness */
+  @media (max-width: 920px) {
+    #resumeContainer {
+      margin-bottom: 150px;
+    }
+  }
+  
+  @media (max-width: 780px) {
+    #resumeContainer {
+      margin-bottom: 300px;
+    }
+  }
+  
+  @media (max-width: 714px) {
+    #resumeContainer {
+      margin-bottom: 500px;
+    }
+  }
+  
 
 
 /* Download Resume Section */
