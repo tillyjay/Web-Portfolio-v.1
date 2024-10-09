@@ -265,6 +265,7 @@
   position: absolute;
   margin-top: 1550px;
   margin-left: 150px;
+  z-index: 10; 
 }
 
 .ball6 {
@@ -562,7 +563,6 @@
 /* Sphere Sixteen */
 .ballDiv16{
   position: absolute;
-  z-index: 1;
   margin-top: 4500px;
   margin-left: 65px;
 }
