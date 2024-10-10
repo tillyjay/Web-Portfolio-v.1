@@ -12,7 +12,7 @@ Having spent six years working with individuals who had intellectual disabilitie
 - ARIA Labels: I have added descriptive ARIA (Accessible Rich Internet Applications) labels to interactive elements such as buttons, forms, and links, improving navigation for screen readers.
 - Keyboard Accessibility: All interactive elements can be easily accessed and navigated using a keyboard, ensuring that users who cannot use a mouse can still engage with the content effectively.
 - Semantic HTML: I have utilized semantic HTML tags to improve the structure of the site, allowing assistive technologies to better interpret and present content.
-- Colour Scheme: Meets color contrast ratio thresholds
+- Colour Scheme: Text meets color contrast ratio thresholds.
 
 ## Technologies Used
 - HTML
