@@ -660,8 +660,8 @@
 
 
 
-/* Sphere Seventeen */
-@media (max-width: 1350px) {
+/* Sphere Eighteen */
+@media (max-width: 1450px) {
 .ballDiv18{
   position: absolute;
   margin-top: 5850px;
@@ -709,13 +709,15 @@
 .ball18 p {
   display: none;
 }
-}
+} 
 
-@media (min-width: 1350px) {
+@media (min-width: 1450px) {
   .ballDiv18 {
     display: none;
   }
 }
+
+
 
 
 /* Hiding Mobile Spheres */
