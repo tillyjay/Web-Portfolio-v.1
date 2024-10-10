@@ -66,21 +66,15 @@
     top: 0;
     width: 100%;
     z-index: 1000;
+    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+    margin: auto;
+    background-color: #F1FAEE;
   }
 
   .container {
     max-width: 1050px;
     width: 90%;
     margin: auto;
-  }
-    
-  .navbar {
-    position: fixed;
-    width: 100%;
-    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
-    margin: auto;
-    z-index: 100;
-    background-color: #F1FAEE;
   }
     
   .nav-container {
