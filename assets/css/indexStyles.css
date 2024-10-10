@@ -127,6 +127,7 @@ div#workContainer {
     flex-direction: row wrap;
     justify-content: flex-start;
     align-items: center;
+    z-index: 11;
 }
 
 #workContainer li.card {
