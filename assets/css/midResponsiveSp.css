@@ -90,6 +90,7 @@
     .ballDiv6 {
         top: 100px;
         left: -100px;
+        z-index: 1;
     }
 
     /* Sphere Seven */
