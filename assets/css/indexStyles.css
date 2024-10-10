@@ -312,6 +312,13 @@ div#workContainerCont {
     background-color: #097754; 
 }
 
+#downloadButton:focus {
+    outline: 3px solid #2a9d8f;
+    outline-offset: 4px;
+    box-shadow: 0 0 10px rgba(42, 157, 143, 0.7);
+    background-color: #097754;
+    border-radius: 50px; 
+}
   
 
 @media (max-width: 1410px) and (min-width: 650px) {
