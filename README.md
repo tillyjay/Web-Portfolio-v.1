@@ -7,6 +7,13 @@ This project serves as a basic showcase of my work, providing visitors with insi
 - About Me: Get to know me better through a brief introduction and insight into my background.
 - Contact: Reach out to me through a contact form.
 
+## Accessibility Features
+Having spent six years working with individuals who had intellectual disabilities, often accompanied by physical disabilities such as visual impairments, I truly understand the value of an accessible site—it’s 'chef’s kiss.' While my portfolio is still a work in progress, I’m actively learning more about accessibility, including WCAG 2.0 guidelines, and am committed to implementing these standards in future projects.
+- ARIA Labels: I have added descriptive ARIA (Accessible Rich Internet Applications) labels to interactive elements such as buttons, forms, and links, improving navigation for screen readers.
+- Keyboard Accessibility: All interactive elements can be easily accessed and navigated using a keyboard, ensuring that users who cannot use a mouse can still engage with the content effectively.
+- Semantic HTML: I have utilized semantic HTML tags to improve the structure of the site, allowing assistive technologies to better interpret and present content.
+- Colour Scheme: Text meets color contrast ratio thresholds.
+
 ## Technologies Used
 - HTML
 - CSS (Flexbox for layout)
