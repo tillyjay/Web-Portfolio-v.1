@@ -55,3 +55,5 @@ if (currentPage.includes('aboutMe.html')) {
 } else if (currentPage.includes('work.html')) {
     workSnap();
 } 
+
+
