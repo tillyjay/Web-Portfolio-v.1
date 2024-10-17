@@ -265,22 +265,24 @@
   position: absolute;
   margin-top: 1550px;
   margin-left: 150px;
-  z-index: 100; 
 }
 
 .ball6 {
+  position: relative;
   display: block;
   background: black;
   margin: 0;
   border-radius: 50%;
   height: 250px;
   width: 250px;
+  z-index: 999;
   background: radial-gradient(circle at 10px 200px, #a5a5a5, #000);
 }
 
 .ball6 .shadow6 {
   background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
   transform: rotateX(90deg) translateZ(-150px);
+  
 }
 
 .ball6:hover  {

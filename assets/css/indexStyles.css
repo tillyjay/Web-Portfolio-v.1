@@ -138,6 +138,7 @@ div#workContainer {
 }
 
 #workContainer img.card-img {
+    position: relative;
     max-width: 100%;
     border-radius: 20px;
     filter: grayscale();
@@ -153,6 +154,8 @@ div#workContainer {
     border: 3px solid #2b2824;
 }
 
+
+
 /* Work Experience Section Continued */
 #workSectionCont {
     background-color:  #F1FAEE;
@@ -166,7 +169,7 @@ div#workContainerCont {
     justify-content: center;
     align-items: center;
     background-color:  #F1FAEE;
-    z-index: 2;
+    z-index: 999;
 }
 
 #workContainerCont .row {
@@ -175,6 +178,7 @@ div#workContainerCont {
 }
 
 #workContainerCont ul.card-list {
+    position: relative;
     display: flex; 
     flex-direction: row wrap;
     justify-content: flex-end;
@@ -185,10 +189,12 @@ div#workContainerCont {
     flex: 0 1 250px;
     margin-right: 5%; 
     position: relative;
+
 }
 
 #workContainerCont img.card-img {
     width: 100%;
+    z-index:9999;
     border-radius: 20px;
     filter: grayscale();
     border: 3px solid #2b2824;
@@ -473,13 +479,18 @@ footer {
     margin: 1% 2% 1% ;
     display: flex; 
     flex-flow: row nowrap;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     border: 3px solid #13CF93;
     background-color: #F1FAEE;
     position: fixed;
     bottom: 0px;
-    z-index: 999;
+    z-index: 99999;
+}
+
+footer.leftFoot {
+    display: flex; 
+    align-items: center;
 }
 
 .footerIcon {
@@ -496,5 +507,21 @@ footer {
     font-size: 1.5vw;
     padding: 5px;
     border-radius: 5px;
+}
+
+button#backToTopBtn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: none;
+    background-color: #F1FAEE;
+}
+
+img#topArrow {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #F1FAEE;
+    height: 2rem;
 }
 
