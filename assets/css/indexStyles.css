@@ -209,6 +209,15 @@ div#workContainerCont {
     border: 3px solid #2b2824;
 }
 
+@media screen and (max-height: 1300px) {
+    /* #workContainerCont img.card {
+        width: 60%
+    } */
+
+}
+
+
+
 /* Resume Section Media Queries */
  @media (max-width: 920px) and (min-width: 780px) {
     #resumeContainer  {

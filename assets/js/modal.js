@@ -1,4 +1,4 @@
-//Modal Open and Close Functions 
+//modal Open and Close Functions 
 
 // Modal for Card One
 var modal = document.getElementById("modalWindowOne");
@@ -99,3 +99,12 @@ btnSix.onclick = function() {
 spanSix.onclick = function() {
   modalSix.style.display = "none";
 }
+
+
+
+document.querySelector('.card-img').addEventListener('click', function() {
+  //show the modal when card is clicked
+  document.getElementById('modalsSection').style.display = 'block';
+  document.getElementById('modalsSectionCont').style.display = 'block';
+});
+
