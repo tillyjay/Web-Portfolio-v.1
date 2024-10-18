@@ -81,9 +81,21 @@
         min-height: 100vh;
     }
 
-    .modal-content {
-        margin-top: 50px;
-        margin-bottom: 200px;
+    .modal-content {  
+        margin: 50px 100px 200px 100px;
+    }
+
+    #workContainer h2 {
+        margin-left: 25px;
+    }
+
+    #workContainer {
+        margin-left: 100px;
+    }
+
+
+    #workContainerCont {
+        margin-left: 100px;
     }
 
 
@@ -230,6 +242,5 @@
 
 
 }
-
 
 

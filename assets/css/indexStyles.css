@@ -210,9 +210,9 @@ div#workContainerCont {
 }
 
 @media screen and (max-height: 1300px) {
-    /* #workContainerCont img.card {
+    #workContainerCont img.card {
         width: 60%
-    } */
+    }
 
 }
 
