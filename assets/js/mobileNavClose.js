@@ -16,3 +16,29 @@ window.addEventListener('beforeunload', () => {
         menuCheckbox.checked = false;
     }
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    //select elements
+    const links = document.querySelectorAll('.navbar .menu-items a');
+    const checkbox = document.querySelector('.nav-container input[type="checkbox"]');
+
+    //add event listener to each link
+    links.forEach(link => {
+      link.addEventListener('click', (e) => {
+        //prevent default link behavior (immediate navigation)
+        e.preventDefault();
+
+        //start closing menu by unchecking checkbox
+        checkbox.checked = false;
+
+        //wait for transition to finish before navigating
+        setTimeout(() => {
+          //after menu has closed (after 500ms, which matches the transition duration)
+          //redirect to link's href
+          window.location.href = link.href;  
+          //match timeout with duration of transition in 'menu-items'
+        }, 400);  
+      });
+    });
+  });
