@@ -88,10 +88,25 @@
     display: flex;
     z-index: 100;
     background-color: #F1FAEE;
+    padding-top: 120px;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    height: 40vh;
+    width: 100%;
+    transform: translate(-150%);
+    display: flex;
+    flex-direction: column;
+    margin-left: -30px;
+    padding-left: 50px;
+    transition: transform 0.5s ease-in-out;
+    text-align: center;
   }
     
   .navbar .nav-container li {
     list-style: none;
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: Gilroy-SemiBold; 
   }  
     
   .navbar .nav-container a {
@@ -163,27 +178,6 @@
   .nav-container .hamburger-lines .line3 {
     transform-origin: 0% 100%;
     transition: transform 0.4s ease-in-out;
-  }
-    
-  .navbar .menu-items {
-    padding-top: 120px;
-    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-    height: 40vh;
-    width: 100%;
-    transform: translate(-150%);
-    display: flex;
-    flex-direction: column;
-    margin-left: -30px;
-    padding-left: 50px;
-    transition: transform 0.5s ease-in-out;
-    text-align: center;
-  }
-    
-  .navbar .menu-items li {
-    margin-bottom: 1.2rem;
-    font-size: 1.5rem;
-    font-weight: 500;
-    font-family: Gilroy-SemiBold; 
   }
 
   .nav-container input[type="checkbox"]:checked ~ .menu-items {
