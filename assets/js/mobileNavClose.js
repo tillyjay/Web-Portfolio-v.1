@@ -1,18 +1,18 @@
-
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', () => {
     const menuCheckbox = document.querySelector('#mobile-menu-checkbox');
 
     //ensure menu is closed when page loads or when navigating back/forward
     if (menuCheckbox && menuCheckbox.checked) {
-        menuCheckbox.checked = false;  //uncheck checkbox to close menu
+        // Uncheck checkbox to close menu
+        menuCheckbox.checked = false;
     }
-
 });
 
 //close menu when navigating between pages
-window.addEventListener('beforeunload', function () {
+window.addEventListener('beforeunload', () => {
     const menuCheckbox = document.querySelector('#mobile-menu-checkbox');
     if (menuCheckbox && menuCheckbox.checked) {
-        menuCheckbox.checked = false;  //uncheck checkbox to close menu
+        //uncheck checkbox to close menu
+        menuCheckbox.checked = false;
     }
 });

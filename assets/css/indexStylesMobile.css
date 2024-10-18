@@ -133,7 +133,9 @@
         border-radius: 5px;
     }
 
-
+    #topArrow {
+        display: none;
+    }
     
 
 }
