@@ -1,110 +1,36 @@
-//modal Open and Close Functions 
+//open a modal
+const openModal = (modalId, cardId, spanClassIndex) => {
+  const modal = document.getElementById(modalId);
+  const card = document.getElementById(cardId);
+  const span = document.getElementsByClassName("close")[spanClassIndex];
 
-// Modal for Card One
-var modal = document.getElementById("modalWindowOne");
+  //open modal on card click
+  card.onclick = () => modal.style.display = "block";
 
-// Get the button that opens the modal
-var btn = document.getElementById("cardOne");
+  //close modal on X click
+  span.onclick = () => modal.style.display = "none";
+};
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+//modal card one
+openModal("modalWindowOne", "cardOne", 0);
 
-// Open modal on click
-btn.onclick = function() {
-  modal.style.display = "block";
-}
+//modal card two
+openModal("modalWindowTwo", "cardTwo", 1);
 
-// Close modal on click
-span.onclick = function() {
-  modal.style.display = "none";
-}
+//modal card three
+openModal("modalWindowThree", "cardThree", 2);
 
+//modal card four
+openModal("modalWindowFour", "cardFour", 3);
 
+//modal card five
+openModal("modalWindowFive", "cardFive", 4);
 
-// Modal for Card Two
-var modalTwo = document.getElementById("modalWindowTwo");
+//modal card six
+openModal("modalWindowSix", "cardSix", 5);
 
-var btnTwo = document.getElementById("cardTwo");
-
-var spanTwo = document.getElementsByClassName("close")[1];
-
-btnTwo.onclick = function() {
-  modalTwo.style.display = "block";
-}
-
-spanTwo.onclick = function() {
-  modalTwo.style.display = "none";
-}
-
-
-// Modal for Card Three
-var modalThree = document.getElementById("modalWindowThree");
-
-var btnThree = document.getElementById("cardThree");
-
-var spanThree = document.getElementsByClassName("close")[2];
-
-btnThree.onclick = function() {
-  modalThree.style.display = "block";
-}
-
-spanThree.onclick = function() {
-  modalThree.style.display = "none";
-}
-
-
-// Modal for Card Four
-var modalFour = document.getElementById("modalWindowFour");
-
-var btnFour = document.getElementById("cardFour");
-
-var spanFour = document.getElementsByClassName("close")[3];
-
-btnFour.onclick = function() {
-  modalFour.style.display = "block";
-}
-
-spanFour.onclick = function() {
-  modalFour.style.display = "none";
-}
-
-
-// Modal for Card Five
-var modalFive = document.getElementById("modalWindowFive");
-
-var btnFive = document.getElementById("cardFive");
-
-var spanFive = document.getElementsByClassName("close")[4];
-
-btnFive.onclick = function() {
-  modalFive.style.display = "block";
-}
-
-spanFive.onclick = function() {
-  modalFive.style.display = "none";
-}
-
-
-// Modal for Card Six
-var modalSix = document.getElementById("modalWindowSix");
-
-var btnSix = document.getElementById("cardSix");
-
-var spanSix = document.getElementsByClassName("close")[5];
-
-btnSix.onclick = function() {
-  modalSix.style.display = "block";
-}
-
-spanSix.onclick = function() {
-  modalSix.style.display = "none";
-}
-
-
-
-document.querySelector('.card-img').addEventListener('click', function() {
-  //show the modal when card is clicked
+//event listener for card image click to show modal section
+document.querySelector('.card-img').addEventListener('click', () => {
   document.getElementById('modalsSection').style.display = 'block';
   document.getElementById('modalsSectionCont').style.display = 'block';
 });
-
