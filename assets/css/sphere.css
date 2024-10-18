@@ -825,6 +825,7 @@
     margin-top: -700px;
     margin-left: 300px;
     display: block;
+    overflow: hidden;
   }
 
   .ball15 {
