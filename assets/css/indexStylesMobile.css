@@ -8,15 +8,16 @@
         height: 100%;
         margin: 0px;
         padding: 0px;
-        overflow-y: hidden;
     }
 
     section#mobileHome {
+        position: relative;
         background-color: #F1FAEE;
         display: flex; 
         justify-content: center;
         align-items: center;
         width: 81%;
+        height: 100vh;
     }
 
     #mobileHome div#homeContainerMobile {

@@ -825,7 +825,6 @@
     margin-top: -700px;
     margin-left: 300px;
     display: block;
-    overflow: hidden;
   }
 
   .ball15 {
@@ -835,6 +834,7 @@
     border-radius: 50%;
     height: 160px;
     width: 160px;
+    overflow: hidden;
     background: radial-gradient(circle at 100px 150px, #a5a5a5, #000);
   }
 
