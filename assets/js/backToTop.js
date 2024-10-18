@@ -1,20 +1,23 @@
-// document.addEventListener("DOMContentLoaded", function () {
-//     const backToTopBtn = document.getElementById("backToTopBtn");
+//wait for DOM to fully load before running script
+document.addEventListener("DOMContentLoaded", () => {
+    const backToTopBtn = document.getElementById("backToTopBtn");
 
-//     // Show the button when the user scrolls down
-//     window.addEventListener("scroll", function () {
-//         if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-//             backToTopBtn.style.display = "block"; // Show button
-//         } else {
-//             backToTopBtn.style.display = "none"; // Hide button
-//         }
-//     });
+    //show button when user scrolls down 100px or more
+    window.addEventListener("scroll", () => {
+        if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+            //show button
+            backToTopBtn.style.display = "block"; 
+        } else {
+            //hide button
+            backToTopBtn.style.display = "none"; 
+        }
+    });
 
-//     // Scroll to the top when the button is clicked
-//     backToTopBtn.addEventListener("click", function () {
-//         window.scrollTo({
-//             top: 0,
-//             behavior: "smooth"
-//         });
-//     });
-// });
+    //scroll to top smoothly when button is clicked
+    backToTopBtn.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth" 
+        });
+    });
+});
