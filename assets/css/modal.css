@@ -82,7 +82,7 @@
 
 .modalP {
     width: 500px;
-    padding: 20px;
+    padding: 20px 20px 5px 20px;
     font-family: Gilroy-Regular;
     line-height: 1.5;
 }
@@ -90,6 +90,24 @@
 .tech-used {
     font-family: Gilroy-SemiBold;
 }
+
+.github-link {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 15px 20px 20px 20px;
+    background-color: #13CF93;
+    height: 30px;
+    width: 40%;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 1rem;
+    color: #2b2824;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #2b2824;
+    box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+}
+
 
 /* The Close Button */
 div.close-container {
