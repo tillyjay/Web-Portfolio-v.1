@@ -87,9 +87,38 @@
         margin: 3% 0% 20% 3%;
     }
 
-    li#cardSix.card {
-        padding-bottom: 30px;
+    #github-item {
+        padding-bottom: 100px;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        margin-top: -20px;
     }
+
+    .github-link {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        background-color: #13CF93;
+        height: 50px;
+        width: 100%;
+        font-family: 'Gilroy-SemiBold';
+        font-size: 1.5rem;
+        color: #2b2824;
+        text-decoration: none;
+        border-radius: 15px;
+        border: 2px solid #2b2824;
+    }
+
+    #first-chevron {
+        margin-left: 10px;
+    }
+
+    .fa-chevron-right {
+        font-size: 1rem;
+    }
+
+
 
     /* Footer Mobile Styles */
     footer {
