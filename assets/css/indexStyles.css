@@ -520,7 +520,7 @@ footer {
 }
 
 button#backToTopBtn {
-    display: flex;
+    display: none;
     justify-content: flex-end;
     align-items: flex-end;
     border: none;
