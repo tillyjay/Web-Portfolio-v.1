@@ -57,7 +57,7 @@
 
     #workContainer ul.card-list {
         height: 100vh;
-        margin: 0% 8%;  
+        margin: 0% 8%; 
     }
 
     #workContainer li.card {
@@ -87,13 +87,9 @@
         margin: 3% 0% 20% 3%;
     }
 
-    #spacer h2 {
-        margin-top: 20px;
-        font-size: 2rem;
-        display: hidden;  
-        color:  #F1FAEE;
+    li#cardSix.card {
+        padding-bottom: 30px;
     }
-
 
     /* Footer Mobile Styles */
     footer {
