@@ -322,6 +322,7 @@ div#workContainerCont {
     font-size: 1.5rem; 
     cursor: pointer; 
     transition: background-color 0.3s ease;
+    box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
 }
 
 #downloadButton:hover {
