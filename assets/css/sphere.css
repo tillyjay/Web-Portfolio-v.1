@@ -17,6 +17,7 @@
   height: 100px;
   width: 100px;
   background: radial-gradient(circle at 100px 100px, #a5a5a5, #000);
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
 }
 
 .ball1 .shadow1 {
@@ -62,6 +63,7 @@
   height: 300px;
   width: 300px;
   background: radial-gradient(circle at 200px 100px, #a5a5a5, #000);
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
 }
 
 .ball2 .shadow2 {
@@ -112,6 +114,7 @@
   height: 200px;
   width: 200px;
   background: radial-gradient(circle at 200px 130px, #13CF93, #000);
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
 }
 
 .ball3 .shadow3 {
@@ -180,6 +183,7 @@
   height: 220px;
   width: 220px;
   background: radial-gradient(circle at 100px 20px, #a5a5a5, #000);
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
 }
 
 .ball4 .shadow4 {
@@ -228,7 +232,9 @@
   height: 150px;
   width: 150px;
   background: radial-gradient(circle at 100px 20px, #a5a5a5, #000);
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
 }
+
 .ball5 .shadow5 {
   background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0) 50%);
   transform: rotateX(90deg) translateZ(-150px);
@@ -277,6 +283,7 @@
   width: 250px;
   z-index: 999;
   background: radial-gradient(circle at 10px 200px, #a5a5a5, #000);
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
 }
 
 .ball6 .shadow6 {
@@ -327,6 +334,7 @@
   height: 150px;
   width: 150px;
   background: radial-gradient(circle at 100px 20px, #a5a5a5, #000);
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
 }
 
 .ball7 .shadow7 {
@@ -376,6 +384,7 @@
   height: 250px;
   width: 250px;
   background: radial-gradient(circle at 10px 30px, #a5a5a5, #000);
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
 }
 
 .ball8 .shadow8 {
@@ -425,6 +434,7 @@
   height: 180px;
   width: 180px;
   background: radial-gradient(circle at 10px 50px, #a5a5a5, #000);
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
 }
 
 .ball9 .shadow9 {
@@ -475,6 +485,7 @@
   height: 300px;
   width: 300px;
   background: radial-gradient(circle at 100px 40px, #a5a5a5, #000);
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
 }
 
 .ball10 .shadow10 {
@@ -525,6 +536,7 @@
   height: 260px;
   width: 260px;
   background: radial-gradient(circle at 200px 40px, #a5a5a5, #000);
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
 }
 
 .ball11 .shadow11 {
@@ -577,6 +589,7 @@
   height: 250px;
   width: 250px;
   background: radial-gradient(circle at 80px 40px, #a5a5a5, #000);
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
 }
 
 .ball16 .shadow16 {
@@ -626,6 +639,7 @@
   height: 250px;
   width: 250px;
   background: radial-gradient(circle at 80px 40px, #a5a5a5, #000);
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
 }
 
 .ball17 .shadow17 {
@@ -678,6 +692,7 @@
   height: 250px;
   width: 250px;
   background: radial-gradient(circle at 80px 40px, #a5a5a5, #000);
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
 }
 
 .ball18 .shadow18 {
@@ -765,6 +780,7 @@
     height: 60px;
     width: 60px;
     background: radial-gradient(circle at 0px 10px, #a5a5a5, #000);
+    box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
   }
 
   .ball12 .shadow12 {
@@ -789,6 +805,7 @@
     height: 100px;
     width: 100px;
     background: radial-gradient(circle at 100px 10px, #a5a5a5, #000);
+    box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
   }
   
   .ball13 .shadow13 {
@@ -812,6 +829,7 @@
     height: 100px;
     width: 100px;
     background: radial-gradient(circle at 100px 10px, #a5a5a5, #000);
+    box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
   }
 
   .ball14 .shadow14 {
@@ -836,6 +854,7 @@
     width: 160px;
     overflow: hidden;
     background: radial-gradient(circle at 100px 150px, #a5a5a5, #000);
+    box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
   }
 
   .ball15 .shadow15 {
