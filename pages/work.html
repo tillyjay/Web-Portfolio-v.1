@@ -81,100 +81,97 @@
 <main>
     <div id="workContainer">
         <h2>Work</h2>
+
+            <!-- Card Section -->
             <ul class="card-list">
                 <li class="card" id="cardOne">
                     <img src="/assets/images/work1.jpg" alt="Cat Selector App" class="card-img">
+                    <h3 class="workTitle">Cat Selector App</h3>
                 </li>
-                <h3 class="workTitle">Cat Selector App</h3>
-                <div class="modalContainer">
-                    <div id="modalWindowOne" class="modal">
-                        <span class="close">&times;</span>
-                    <div class="modal-content">
-                        <img class="modalImg" src="/assets/images/work1.jpg">
-                        <div class="modalText">
-                            <h1>Cat Selector App</h1>
-                        <p class="modalP">
-                            The application is an interface where the user can select three different 
-                            cat characteristics and the app will match you with the perfect cat.
-                            The site is desktop and mobile friendly.
-                            <br><br>
-                            The app was created using JavaScript’s fetch function to grab data from an API, 
-                            sort and filter it with three separate JS array methods to return a selected piece of data.
-                            The app also leveraged a jQuery library and was styled entirely using SASS.
-                            <br>
-                            <br>
-                            Working with an API was a challenging new experience but was a great exercise in working with data. 
-                            Additionally, this was my first-time using SASS; a bit of a learning curve, but I now understand why 
-                            incorporating variables into styling can be super beneficial in writing concise code.  
-                            <br>
-                            <br>
-                            Technologies Used: JavaScript, jQuery, HTML5, CSS3
-                        </p>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-        
+
                 <li class="card" id="cardTwo">
-                    <img src="/assets/images/work2.jpg" alt="Social Media Feed"class="card-img">
+                    <img src="/assets/images/work2.jpg" alt="Social Media Feed" class="card-img">
+                    <h3 class="workTitle">Social Media Feed</h3>
                 </li>
-                <h3 class="workTitle">Social Media Feed</h3>
-                <div class="modalContainer">
-                    <div id="modalWindowTwo" class="modal">
-                        <span class="close">&times;</span>
-                    <div class="modal-content">
-                        <img class="modalImg" src="/assets/images/work2.jpg">
-                        <div class="modalText">
-                            <h1>Social Media Feed</h1>
-                        <p class="modalP">
-                            This application is a dynamic social media feed with different users who each had unique administrative permissions for the feed, 
-                            such as the ability to add users, or moderate posts.  
-                            <br>
-                            <br>
-                            Based off an ERD connected to a dynamic MySQL database, a customizable interface was created using Php and the Laravel framework. 
-                            The application also included a touch of JavaScript for form validation and was styled using the Bootstrap framework. 
-                            <br>
-                            <br>
-                            This application pushed me out of my comfort zone by combining various techniques and frameworks. It was really cool to work with not only front-end code, 
-                            but also pull back and work with back-end development.   
-                            <br>
-                            <br>
-                            Technologies Used: PHP (Laravel framework), MySQL, JavaScript, Bootstrap
-                        </p>
-                        </div>
-                    </div>
-                    </div>
-                </div>
 
                 <li class="card" id="cardThree">
-                    <img src="/assets/images/work3.png" alt="Book Nook" class="card-img"> 
-                </li> 
-                <h3 class="workTitle">Book Nook</h3>
-                <div id="modalContainer">
-                    <div id="modalWindowThree" class="modal">
-                        <span class="close">&times;</span>
+                    <img src="/assets/images/work3.png" alt="Book Nook" class="card-img">
+                    <h3 class="workTitle">Book Nook</h3>
+                </li>
+                <div id="spacer">
+                    <h2>SPACER</h2>  
+                </div>
+
+            </ul>
+
+            <!-- Modal Section -->
+            <div class="modalContainer">
+                        
+                <!-- Modal 1 for Cat Selector App -->
+                <div id="modalWindowOne" class="modal">
                     <div class="modal-content">
-                        <img class="modalImg" src="/assets/images/work3.png">
+                        <div class="close-container">
+                            <span class="close">&times;</span>
+                        </div>
+                        <img class="modalImg" src="/assets/images/work1.jpg" alt="Cat Selector App">
                         <div class="modalText">
-                            <h1>Book Nook</h1>
+                            <h1>Cat Selector App</h1>
                             <p class="modalP">
-                                This project is a book libray React-based web application with CRUD operations and search filter functionality. 
-                                <br>
-                                <br> 
-                                The app uses MongoDB for the backend, and Bootstrap for responsiveness. Users can seamlessly manage their digital library by 
-                                adding, editing, and deleting books along with updating their ratings. The application also includes an author information modal accessed via the author button. 
-                                <br>
-                                <br>
-                                Users must sign in to access the library's full functionality, and JSON Web Tokens (JWT) are utilized for secure authentication.
-                                <br>
-                                <br>
-                                Technologies Used: React, MongoDB, Node.js, Express, Bootstrap, CSS3, JSON Web Tokens (JWT)
+                                The application is an interface where the user can select three different 
+                                cat characteristics and the app will match you with the perfect cat.
+                                The site is desktop and mobile friendly.
+                                <br><br>
+                                The app was created using JavaScript’s fetch function to grab data from an API, 
+                                sort and filter it with three separate JS array methods to return a selected piece of data.
+                                The app also leveraged a jQuery library and was styled entirely using SASS.
+                                <br><br>
+                                <span class="tech-used">Technologies Used:</span> JavaScript, jQuery, HTML5, CSS3
                             </p>
                         </div>
                     </div>
+                </div>
+
+                <!-- Modal 2 for Social Media Feed -->
+                <div id="modalWindowTwo" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img class="modalImg" src="/assets/images/work2.jpg" alt="Social Media Feed">
+                        <div class="modalText">
+                            <h1>Social Media Feed</h1>
+                            <p class="modalP">
+                                This application is a dynamic social media feed with different users who each had unique administrative permissions for the feed.
+                                <br><br>
+                                Based off an ERD connected to a dynamic MySQL database, a customizable interface was created using Php and the Laravel framework. 
+                                The application also included a touch of JavaScript for form validation and was styled using Bootstrap.
+                                <br><br>
+                                <span class="tech-used">Technologies Used:</span> PHP (Laravel framework), MySQL, JavaScript, Bootstrap
+                            </p>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Modal 3 for Book Nook -->
+                <div id="modalWindowThree" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img class="modalImg" src="/assets/images/work3.png" alt="Book Nook">
+                        <div class="modalText">
+                            <h1>Book Nook</h1>
+                            <p class="modalP">
+                                This project is a book library React-based web application with CRUD operations and search filter functionality. 
+                                <br><br>
+                                The app uses MongoDB for the backend, and Bootstrap for responsiveness. Users can manage their library by 
+                                adding, editing, and deleting books along with updating ratings.
+                                <br><br>
+                                <span class="tech-used">Technologies Used:</span> React, MongoDB, Node.js, Express, Bootstrap, CSS3, JSON Web Tokens (JWT)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+
+<!-- 
                 <li class="card" id="cardFour">
                     <img src="/assets/images/work4.png" alt="Shelter NS Asset Tracker" class="card-img">
                 </li>
@@ -267,10 +264,8 @@
                     </div>
                 </div>
 
-                <div id="spacer">
-                    <h2>SPACER</h2>  
-                </div>
-            </ul>  
+         
+            </ul>   -->
     </div>
 </main>
 
