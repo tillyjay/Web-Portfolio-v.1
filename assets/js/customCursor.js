@@ -19,8 +19,8 @@ document.addEventListener('mousemove', (e) => {
 const handleHoverClick = (element, color, cursorSize) => {
     element.addEventListener('mouseenter', () => {
         cursor.style.backgroundColor = color; 
-        cursor.style.width = `${cursorSize / 2}px`;  
-        cursor.style.height = `${cursorSize / 2}px`; 
+        cursor.style.width = `${cursorSize / 2.5}px`;  
+        cursor.style.height = `${cursorSize / 2.5}px`; 
     });
 
     element.addEventListener('mouseleave', () => {
