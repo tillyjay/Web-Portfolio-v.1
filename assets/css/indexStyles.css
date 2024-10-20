@@ -437,6 +437,20 @@ button#backToTopBtn {
     color: #13CF93;
 }
 
+/* Custom Cursor */
+.custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #13CF93;
+    pointer-events: none; 
+    z-index: 999999999;
+    transition: background-color 0.2s ease;
+}
+
 
 @media screen and (max-height: 790px) {
     section {
