@@ -60,7 +60,7 @@ clickableElements.forEach((element) => {
 });
 
 //hide custom cursor in the mobile index and navbar section
-const mobileSection = document.getElementById('mobileHome');
+const mobileHome = document.getElementById('mobileHome');
 const mobileNav = document.getElementById('mobile-nav');
 
 //show and hide cursor 
@@ -70,17 +70,19 @@ const hideCursor = () => {
 };
 
 const showCursor = () => {
-    cursor.style.display = 'block'; 
+    cursor.style.display = 'none'; 
     document.body.style.cursor = '';
 };
 
 //event listeners for mobile section
-mobileSection.addEventListener('mouseenter', hideCursor);
-mobileSection.addEventListener('mouseleave', showCursor);
+mobileHome.addEventListener('mouseenter', hideCursor);
+mobileHome.addEventListener('mouseleave', showCursor);
+mobileHome.addEventListener('click', hideCursor);
 
 //event listeners for mobile nav
 mobileNav.addEventListener('mouseenter', hideCursor);
 mobileNav.addEventListener('mouseleave', showCursor);
+mobileNav.addEventListener('click', hideCursor);
 
 //ensure custom cursor is displayed by default
 document.addEventListener('DOMContentLoaded', () => {
@@ -88,3 +90,4 @@ document.addEventListener('DOMContentLoaded', () => {
         cursor.style.display = 'none';
     }, 0);
 });
+
