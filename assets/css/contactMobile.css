@@ -116,13 +116,6 @@
     
     }
 
-    #submit:hover {
-        color: #F1FAEE;
-        border: 2px solid #F1FAEE;
-        background-color: #13CF93;
-    }
-
-
     /* Footer Mobile Styles */
     footer {
         position: fixed;
@@ -144,10 +137,6 @@
         font-size: 8vw;
         padding-right: 10px;
         color: black;
-    }
-
-    .footerIcon:hover {
-        color: #13CF93;
     }
 
     .footerEle {
