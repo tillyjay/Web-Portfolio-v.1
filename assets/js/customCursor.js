@@ -2,10 +2,10 @@
 const cursor = document.createElement('div');
 cursor.classList.add('custom-cursor');
 document.body.appendChild(cursor);
+cursor.style.boxShadow = 'rgba(77, 77, 77, 0.4) 0px 2px 8px 0px';
 
 //get cursor size
 const cusrsorSize = cursor.offsetWidth;
-console.log(cusrsorSize); 
 
 //update cursor position
 document.addEventListener('mousemove', (e) => {
@@ -13,7 +13,6 @@ document.addEventListener('mousemove', (e) => {
     cursor.style.top = `${e.clientY - cusrsorSize / 2}px`; 
     cursor.style.left = `${e.clientX - cusrsorSize / 2}px`;
 });
-
 
 
 //handle hover/clickable elements
@@ -28,6 +27,7 @@ const handleHoverClick = (element, color, cursorSize) => {
         cursor.style.backgroundColor = '#13CF93';  
         cursor.style.width = `${cursorSize}px`;  
         cursor.style.height = `${cursorSize}px`; 
+        cursor.style.border = 'none';
     });
 };
 
