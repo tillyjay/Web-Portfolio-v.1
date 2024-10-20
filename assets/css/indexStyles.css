@@ -235,7 +235,6 @@ div#workContainerCont {
     border: none; 
     border-radius: 50px; 
     font-size: 1.5rem; 
-    cursor: pointer; 
     transition: background-color 0.3s ease;
     box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
 }
@@ -403,7 +402,6 @@ footer {
     font-size: 2.4vw;
     padding-right: 10px;
     color: black;
-    cursor: pointer;
 }
 
 .footerIcon:hover {
@@ -422,7 +420,6 @@ button#backToTopBtn {
     align-items: flex-end;
     border: none;
     background-color: #F1FAEE;
-    cursor: pointer;
 }
 
 #topArrow {
@@ -442,8 +439,8 @@ button#backToTopBtn {
     position: fixed;
     top: 0;
     left: 0;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-color: #13CF93;
     pointer-events: none; 
