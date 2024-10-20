@@ -33,7 +33,7 @@
     /* Nav Bar Styles */
     .navbarDesk li.nav-item {
         display: flex;
-        font-size: 1.8vw;
+        font-size: 2vw;
         margin: 10px;
     }
       
@@ -229,16 +229,21 @@
     }
 
 
-    /* Footer Section */
+    /* Footer */
     .footerEle {
-        font-size: 1.6vw;
+        font-size: 2vw;
     }
 
     .footerIcon {
-        font-size: 3.1vw;
+        font-size: 3vw;
         padding-right: 10px;
         color: black;
     }
+
+    #topArrow {
+        font-size:3vw;
+    }
+
 
 
 }
