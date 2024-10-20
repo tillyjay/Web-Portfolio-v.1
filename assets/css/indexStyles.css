@@ -218,61 +218,6 @@ div#workContainerCont {
 
 
 
-/* Resume Section Media Queries */
- @media (max-width: 920px) and (min-width: 780px) {
-    #resumeContainer  {
-      margin-bottom: 200px;
-    }
-
-    #resumeContainerCont {
-        margin-top: 20%;
-    }
-}
-
-
-@media (max-width: 779px) and (min-width: 715px) {
-    #resumeContainer  {
-      margin-bottom: 400px;
-    }
-
-}
-
-@media (max-width: 714px) and (min-width: 650px) {
-    #resumeContainer  {
-      margin-bottom: 600px;
-    }
-
-}
-
-
-
-@media screen and (max-height: 790px) {
-    
-    #resumeContainer, #resumeContainerCont {
-      padding-bottom: 100px; 
-
-    }
-  
-    #resumeContent1, #skills, #volunteer {
-      margin-bottom: 350px; 
-    }
-    
-    #resumeSectionCont {
-      margin-top: 300px;
-    }
-
-    #downloadSection {
-      padding: 20px 0;
-      margin-top: 150px; 
-    }
-      #downloadContainer   {
-      margin-bottom: 30px;
-    }
-  }
-
-  
-
-
 /* Download Resume Section */
 #downloadSection {
     display: flex;

@@ -2,7 +2,6 @@
 /* Resume Section */
 #resumeSection {
     background-color:  #F1FAEE;
-    margin-bottom: 10px;
 }
 
 #resumeContainer {
@@ -26,7 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-
+    margin-bottom: 20%;
 }
 
 .leftCol {
@@ -163,7 +162,7 @@
 
 /* Resume Section Continued */
 #resumeSectionCont {
-    margin-top: 15vh;
+    margin-top: 5vh;
     background-color:  #F1FAEE;
 }
 
