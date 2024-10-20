@@ -403,9 +403,13 @@ footer {
     align-items: center;
 }
 
+#footerYear {
+    font-size: 1.6vw;
+}
+
 .footerIcon {
-    font-size: 2.4vw;
-    padding-right: 10px;
+    font-size: 2.5vw;
+    padding-right: .5vw;
     color: black;
 }
 

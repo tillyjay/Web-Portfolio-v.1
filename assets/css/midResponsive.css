@@ -233,19 +233,4 @@
         align-self:center;
     }
 
-
-    /* Footer */
-    .footerEle {
-        font-size: 2vw;
-    }
-
-    .footerIcon {
-        font-size: 3vw;
-        padding-right: 10px;
-        color: black;
-    }
-
-    #topArrow {
-        font-size:3vw;
-    }
 }

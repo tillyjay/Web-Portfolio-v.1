@@ -25,8 +25,8 @@
 
 .navbarDesk li.nav-item {
   display: flex;
-  font-size: 1.4vw;
-  margin: 10px;
+  font-size: 1.6vw;
+  padding: .5vw;
 }
 
 .navbarDesk .nav-item a {
