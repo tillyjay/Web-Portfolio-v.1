@@ -189,7 +189,7 @@ div#workContainerCont {
     flex: 0 1 250px;
     margin-right: 5%; 
     position: relative;
-
+    z-index: 9999;
 }
 
 #workContainerCont img.card-img {
@@ -222,6 +222,10 @@ div#workContainerCont {
  @media (max-width: 920px) and (min-width: 780px) {
     #resumeContainer  {
       margin-bottom: 200px;
+    }
+
+    #resumeContainerCont {
+        margin-top: 20%;
     }
 }
 
@@ -266,42 +270,23 @@ div#workContainerCont {
     }
   }
 
-
-  /* Resume Width Media Queries */
-  @media (max-width: 920px) {
-    #resumeContainer {
-      margin-bottom: 150px;
-    }
-  }
-  
-  @media (max-width: 780px) {
-    #resumeContainer {
-      margin-bottom: 300px;
-    }
-  }
-  
-  @media (max-width: 714px) {
-    #resumeContainer {
-      margin-bottom: 500px;
-    }
-  }
   
 
 
 /* Download Resume Section */
 #downloadSection {
-    padding: 50px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     max-height: 200px;
+    margin-bottom: 15%;
 }
 
 #downloadContainer {
     text-align: center;
     z-index: 2;
     background-color: #F1FAEE; /* This can remain unchanged */
-    padding: 50px;
+    padding: 0px 50px;
     border-radius: 20px;
 }
 
@@ -340,8 +325,7 @@ div#workContainerCont {
 
 @media (max-width: 1410px) and (min-width: 650px) {
     #downloadContainer  {
-      margin-top: 100px;
-      margin-bottom: 0px;
+      margin-bottom: 100px;
     }
 }
 
