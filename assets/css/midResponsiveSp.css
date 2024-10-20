@@ -101,7 +101,11 @@
     }
 
     /* Sphere Eight */
-    /* - no changes */
+    .ballDiv8 {
+        top: -20px;
+        left: 0px;
+        z-index: 0;
+    }
 
     /* Sphere Nine */
     .ballDiv9 {
