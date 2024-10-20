@@ -3,21 +3,31 @@ const cursor = document.createElement('div');
 cursor.classList.add('custom-cursor');
 document.body.appendChild(cursor);
 
+//get cursor size
+const cusrsorSize = cursor.offsetWidth;
+console.log(cusrsorSize); 
+
 //update cursor position
 document.addEventListener('mousemove', (e) => {
-    //subtract 10px to center cursor
-    cursor.style.top = `${e.clientY - 15}px`; 
-    cursor.style.left = `${e.clientX - 15}px`;
+    //center cursor by subtracting half its size
+    cursor.style.top = `${e.clientY - cusrsorSize / 2}px`; 
+    cursor.style.left = `${e.clientX - cusrsorSize / 2}px`;
 });
 
 
+
 //handle hover/clickable elements
-const handleHoverEffect = (element, color) => {
+const handleHoverClick = (element, color, cursorSize) => {
     element.addEventListener('mouseenter', () => {
-        cursor.style.backgroundColor = color;
+        cursor.style.backgroundColor = color; 
+        cursor.style.width = `${cursorSize / 2}px`;  
+        cursor.style.height = `${cursorSize / 2}px`; 
     });
+
     element.addEventListener('mouseleave', () => {
-        cursor.style.backgroundColor = '#13CF93'; 
+        cursor.style.backgroundColor = '#13CF93';  
+        cursor.style.width = `${cursorSize}px`;  
+        cursor.style.height = `${cursorSize}px`; 
     });
 };
 
@@ -27,13 +37,13 @@ const hoverElements = document.querySelectorAll('.hover');
 
 //apply new color when over hover elements
 hoverElements.forEach((element) => {
-    handleHoverEffect(element, '#34a0a4');
+    handleHoverClick(element, '#34a0a4', cusrsorSize);
 });
 
-// Get all clickable elements
+//get all clickable elements
 const clickableElements = document.querySelectorAll('a, button, input, [role="button"]');
 
 //apply new color when over clickable elements
 clickableElements.forEach((element) => {
-    handleHoverEffect(element, '#34a0a4');
+    handleHoverClick(element, '#34a0a4', cusrsorSize);
 });
