@@ -56,7 +56,7 @@
     margin: 5px;
     padding: 5px;
     border: 5px solid #13CF93;
-    border-radius: 15px;      
+    border-radius: 15px;   
 }
 
 .modalImg {
@@ -140,39 +140,6 @@ div.close-container {
 
 @media (min-width: 600px) and (max-width: 1200px) {
     
-    .modalContainer {
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        z-index: 999999;
-    }
-
-    .modal {
-        display: none; 
-        position: fixed; 
-        z-index: 9999; 
-        padding-top: 100px; 
-        left: 0;
-        top: 0;
-        width: 100%; 
-        height: 100%; 
-        overflow: auto; 
-        background-color: rgba(0,0,0,0.4); 
-    }
-    
-    .modal-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex-flow: wrap;
-        background-color: #F1FAEE;
-        margin: 5px;
-        padding: 5px;
-        border: 5px solid #13CF93;
-        border-radius: 15px;
-        
-    }
 
     .modalImg {
         width: 200px;
@@ -203,126 +170,27 @@ div.close-container {
         line-height: 1.2;
         font-size: .9rem;
     }
-
-    .tech-used {
-        font-family: Gilroy-SemiBold;
-    }
-
-    .github-link {
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        margin: 15px 20px 20px 20px;
-        background-color: #13CF93;
-        height: 30px;
-        width: 40%;
-        font-family: 'Gilroy-SemiBold';
-        font-size: 1rem;
-        color: #2b2824;
-        text-decoration: none;
-        border-radius: 10px;
-        border: 2px solid #2b2824;
-        box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
-    }
-
-
-    /* The Close Button */
-    div.close-container {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        width: 95%;
-        height: 40px;
-        margin-top: 15px;
-    }
-
-    .close {
-        width: 3%;
-        margin-right: 15px;
-        color: #13CF93;
-        float: right;
-        font-size: 50px;
-        font-weight: bold;
-        align-self: flex-end;
-    }
-
-    
-    .close:hover,
-    .close:focus {
-        color: #000;
-        text-decoration: none;
-        cursor: pointer;
-    }
-  }
+}
   
 
-
-
-@media only screen and (max-width: 599px) {
-
 /* Mobile Modal Styles */
-    .modalContainer {
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        z-index: 99999;
-
-    }
-
+@media only screen and (max-width: 599px) {
     .modal {
-        display: none; 
-        position: fixed; 
-        z-index: 999999; 
         padding: 20px 5px; 
-        left: 0;
-        top: 0;
-        width: 100%; 
-        height: 100%; 
-        overflow: auto;
-        background-color: rgba(0,0,0,0.4); 
     }
   
     .modal-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         width: 90%;
         padding: 10px 5px 20px 5px;
         background-color: #F1FAEE;
-        margin: 5px;
-        border: 5px solid #13CF93;
-        border-radius: 15px;
         margin-bottom: 80px;
     }
 
         
     div.close-container {
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-start;
         width: 97%;
-        height: 40px;
+        margin-top: 5px;
         margin-bottom: -20px;
-    }
-
-    .close {
-        width: 3%;
-        margin-right: 15px;
-        margin-left: 0px;
-        color: #13CF93;
-        float: right;
-        font-size: 50px;
-        font-weight: bold;
-        align-self: flex-end;
-    }
-
-    .modalImg {
-        width: 300px;
-        height: auto;
-        margin: 10px;
-        border-radius: 25px;
-        border: 3px solid black;
     }
 
     .modalText {
@@ -346,8 +214,11 @@ div.close-container {
         line-height: 20px;
     }
 
-    .tech-used {
-        font-family: 'Gilroy-SemiBold';
+    .github-link {
+        height: 50px;
+        width: 90%;
+        font-size: 1.3rem;
+        border-radius: 15px;
     }
 
 }   
