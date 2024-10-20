@@ -35,8 +35,6 @@ html, body {
 }
 
 body {
-    margin: 0;
-    padding: 0;
     max-width: 1600px;
     font-family: Gilroy-Bold;
     background-color: #F1FAEE;
@@ -54,6 +52,7 @@ section {
 
 section#mobileHome {
     display: none;
+    cursor: none;
 }
 
 

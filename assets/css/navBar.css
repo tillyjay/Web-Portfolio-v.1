@@ -50,6 +50,7 @@
 
 .navbar {
   display: none;
+  cursor: none;
 }
 
 
@@ -58,6 +59,10 @@
 
   .navbarDesk {
     display: none;
+  }
+
+  #mobile-nav {
+    cursor: none;
   }
 
   .navbar {

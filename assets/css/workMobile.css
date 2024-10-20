@@ -33,7 +33,12 @@
         height: 100vh;
         background-color:  #F1FAEE;
         font-family: Gilroy-SemiBold;
+        cursor: none; 
     }
+
+    a, button, input, textarea, select {
+        cursor: none; 
+      }
 
     div#workContainer {
         display: flex; 

@@ -18,7 +18,9 @@
         align-items: center;
         width: 81%;
         margin-top:0px;
+        cursor: none;
     }
+
 
     #mobileHome div#homeContainerMobile {
         display: flex; 
@@ -84,6 +86,10 @@
         align-items: center;
         border: 3px solid #13CF93;
         background-color: #F1FAEE;
+    }
+
+    #footerYear {
+        font-size: 5vw;
     }
 
     .footerIcon {

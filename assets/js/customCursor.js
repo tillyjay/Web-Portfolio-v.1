@@ -47,3 +47,33 @@ const clickableElements = document.querySelectorAll('a, button, input, [role="bu
 clickableElements.forEach((element) => {
     handleHoverClick(element, '#34a0a4', cusrsorSize);
 });
+
+
+//hide custom cursor in the mobile index and navbar section
+const mobileSection = document.getElementById('mobileHome');
+const mobileNav = document.getElementById('mobile-nav');
+
+mobileSection.addEventListener('mouseenter', () => {
+    cursor.style.display = 'none'; 
+    document.body.style.cursor = 'none';
+});
+
+mobileSection.addEventListener('mouseleave', () => {
+    cursor.style.display = 'block';
+    document.body.style.cursor = '';
+});
+
+mobileNav.addEventListener('mouseenter', () => {
+    cursor.style.display = 'none'; 
+    document.body.style.cursor = 'none';
+});
+
+mobileNav.addEventListener('mouseleave', () => {
+    cursor.style.display = 'block';
+    document.body.style.cursor = '';
+});
+
+// Ensure the custom cursor is displayed by default
+document.addEventListener('DOMContentLoaded', () => {
+    cursor.style.display = 'block';
+});
