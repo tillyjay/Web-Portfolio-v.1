@@ -73,7 +73,7 @@ mobileNav.addEventListener('mouseleave', () => {
     document.body.style.cursor = '';
 });
 
-// Ensure the custom cursor is displayed by default
+//ensure custom cursor is displayed by default
 document.addEventListener('DOMContentLoaded', () => {
     cursor.style.display = 'block';
 });
