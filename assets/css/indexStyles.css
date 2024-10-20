@@ -51,12 +51,6 @@ section#mobileHome {
     display: none;
 }
 
-@media screen and (max-height: 790px) {
-    section {
-        margin-top: 200px;
-    }
-} 
-
 
 /* Section Home */  
 #homeSection {
@@ -155,7 +149,6 @@ div#workContainer {
 }
 
 
-
 /* Work Experience Section Continued */
 #workSectionCont {
     background-color:  #F1FAEE;
@@ -209,14 +202,6 @@ div#workContainerCont {
     border: 3px solid #2b2824;
 }
 
-@media screen and (max-height: 1300px) {
-    #workContainerCont img.card {
-        width: 60%
-    }
-
-}
-
-
 
 /* Download Resume Section */
 #downloadSection {
@@ -268,13 +253,6 @@ div#workContainerCont {
 }
 
 
-@media (min-width: 650px) and (max-width: 1410px) {
-    #downloadContainer  {
-      margin-bottom: 100px;
-    }
-}
-
-
 /* About Me Section */
 #aboutSection {
     background-color:  #F1FAEE;
@@ -320,12 +298,6 @@ div#workContainerCont {
     margin-right: 45px;
 }
 
-@media (max-width: 920px) and (min-width: 650px) {
-    .aboutContainer  {
-      margin-top: 150px;
-    }
-}
-
 
 /* Contact Section */
 #contactSection {
@@ -337,8 +309,8 @@ div#workContainerCont {
 }
 
 .contactContainer {
-    flex-flow: column wrap;
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
 
@@ -403,11 +375,6 @@ input {
     border: 2px solid #F1FAEE;
     background-color: #13CF93;
 }
-/* @media (min-width: 1100px) {
-    .contactContainer  {
-      margin-right: 150px;
-    }
-} */
 
 
 /* Footer Styles*/    
@@ -469,3 +436,14 @@ button#backToTopBtn {
 #topArrow:hover {
     color: #13CF93;
 }
+
+
+@media screen and (max-height: 790px) {
+    section {
+        margin-top: 200px;
+    }
+
+    #downloadSection {
+        margin-top: 100px;
+    }
+} 
