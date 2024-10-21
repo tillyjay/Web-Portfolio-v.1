@@ -117,11 +117,11 @@
 
     /* Work Experience Styles */
     #experience {
-        margin: 10px 0px;
+        margin-top: 1%;
     }
 
     #experience h2 {
-        margin-top: 15px;
+        margin-top: 30px;
         font-size: 2rem;
         padding-bottom: 20px;
         font-family: Gilroy-SemiBold;
@@ -206,7 +206,7 @@
     }
     
     #volunteer h2 {
-        margin-top: 25px;
+        margin-top: 30px;
         font-size: 2rem;
         margin-bottom: 20px;
         font-family: Gilroy-SemiBold;
@@ -215,7 +215,7 @@
     .vol {
         display: flex; 
         flex-flow: row wrap;
-        margin: 20px 0px;;
+        margin: 20px 0px;
     }
 
     .volImg {
