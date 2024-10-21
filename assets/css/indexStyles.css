@@ -6,17 +6,13 @@ html, body {
     height: 100%;
     z-index: -10;
     scroll-behavior: smooth;
-    cursor: none;
+
 }
 
 body {
     max-width: 1600px;
     font-family: Gilroy-Bold;
     background-color: #F1FAEE;
-}
-
-a, button, input, textarea, select {
-    cursor: none; 
 }
 
 section {

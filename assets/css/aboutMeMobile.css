@@ -2,20 +2,13 @@
 /* About Me Mobile Styles */
 @media only screen and (max-width: 650px) {
 
-
-
   body {
     background-color: #F1FAEE;
     font-family: Gilroy-SemiBold;
     width: 100%;
     height: 100vh;
-    cursor: none; 
   }
 
-  a, button, input, textarea, select {
-    cursor: none; 
-  }
-  
   main {
     display: flex; 
     flex-flow: column nowrap;
@@ -67,7 +60,7 @@
     transform: rotateX(90deg) translateZ(-150px);
   }
 
-  /* Profile Image */
+  /* Profile Image Sphere */
   .ballDiv1{
     position: absolute;
     margin-top:  1300px;
@@ -116,36 +109,6 @@
       
   .ball1 img {
     display: none;
-  }
-
-    
-  /* Footer Mobile Styles */
-  footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    font-family: Gilroy-Regular;
-    padding: 5px;
-    width: 92%;
-    margin: 1% 2% 1% ;
-    display: flex; 
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    border: 3px solid #13CF93;
-    background-color: #F1FAEE;
-  }
-
-  .footerIcon {
-    font-size: 8vw;
-    padding-right: 10px;
-    color: black;
-  }
-
-  .footerEle {
-    font-size: 5vw;
-    padding: 5px;
-    border-radius: 5px;
   }
 
 }    

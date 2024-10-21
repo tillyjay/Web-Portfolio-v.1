@@ -8,12 +8,7 @@
         width: 100%;
         height: 100vh;
         margin-top: 0px;
-        cursor : none;
     }
-
-    a, button, input, textarea, select {
-        cursor: none; 
-      }
 
     #resumeSection {
         background-color: #F1FAEE;
@@ -213,7 +208,7 @@
         font-family: Gilroy-Light;
     }
 
-    /* Download Resume Section */
+    /* Download Resume Styles */
     #downloadSection {
         padding: 25px;
         display: flex;
@@ -249,40 +244,4 @@
     #downloadButton:hover {
         background-color: #097754; 
     }
-
-    /* Footer Mobile Styles */
-    footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        font-family: Gilroy-Regular;
-        padding: 5px;
-        width: 92%;
-        margin: 1% 2% 1% ;
-        display: flex; 
-        flex-flow: row nowrap;
-        justify-content: flex-start;
-        align-items: center;
-        border: 3px solid #13CF93;
-        background-color: #F1FAEE;
-    }
-
-    .footerIcon {
-        font-size: 8vw;
-        padding-right: 10px;
-        color: black;
-    }
-
-    .footerIcon:hover {
-        color: #13CF93;
-    }
-
-    .footerEle {
-        font-size: 5vw;
-        padding: 5px;
-        border-radius: 5px;
-    }
-
-
-
 }    
