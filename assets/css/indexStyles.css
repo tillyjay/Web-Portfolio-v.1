@@ -6,7 +6,6 @@ html, body {
     height: 100%;
     z-index: -10;
     scroll-behavior: smooth;
-	cursor: none; 
 }
 
 a, button, input, textarea, select {
@@ -17,6 +16,7 @@ body {
     max-width: 1600px;
     font-family: Gilroy-Bold;
     background-color: #F1FAEE;
+    cursor: none; 
 }
 
 section {
