@@ -29,8 +29,4 @@ openModal("modalWindowFive", "cardFive", 4);
 //modal card six
 openModal("modalWindowSix", "cardSix", 5);
 
-//event listener for card image click to show modal section
-document.querySelector('.card-img').addEventListener('click', () => {
-  document.getElementById('modalsSection').style.display = 'block';
-  document.getElementById('modalsSectionCont').style.display = 'block';
-});
+
