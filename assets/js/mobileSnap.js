@@ -25,17 +25,14 @@ const resumeSnap = () => {
 
 //work Snap
 const workSnap = () => {
-    console.log('workSnap triggered');
     if ($(window).width() > 650) {
         window.location = "../index.html#workSection";
-        console.log(window.location.pathname);
     }
 };
 
 
 //check which page is currently open and apply right snap
 window.onresize = () => {
-    console.log('Window resized');
     if (currentPage.includes('aboutMe')) {
         aboutSnap();
     } else if (currentPage.includes('contact')) {
