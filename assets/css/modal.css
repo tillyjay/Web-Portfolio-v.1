@@ -111,9 +111,11 @@ div.close-container {
 }
 
 
-
 @media (min-width: 600px) and (max-width: 1200px) {
     
+    .modal-content{
+        margin-top: -60px;
+    }
 
     .modalImg {
         width: 200px;
