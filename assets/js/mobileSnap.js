@@ -27,6 +27,7 @@ const resumeSnap = () => {
 const workSnap = () => {
     if ($(window).width() > 650) {
         window.location = "../index.html#workSection";
+        console.log(window.location.pathname);
     }
 };
 
