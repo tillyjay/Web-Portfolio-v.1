@@ -5,28 +5,28 @@ const currentPage = window.location.pathname;
 //about Snap
 const aboutSnap = () => {
     if ($(window).width() > 650) {
-        window.location = "/index.html#aboutSection";
+        window.location = "../index.html#aboutSection";
     }
 };
 
 //contact Snap
 const contactSnap = () => {
     if ($(window).width() > 650) {
-        window.location = "/index.html#contactSection";
+        window.location = "../index.html#contactSection";
     }
 };
 
 //resume Snap
 const resumeSnap = () => {
     if ($(window).width() > 650) {
-        window.location = "/index.html#resumeSection";
+        window.location = "../index.html#resumeSection";
     }
 };
 
 //work Snap
 const workSnap = () => {
     if ($(window).width() > 650) {
-        window.location = "/index.html#workSection";
+        window.location = "../index.html#workSection";
     }
 };
 
