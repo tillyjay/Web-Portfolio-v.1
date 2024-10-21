@@ -1,29 +1,4 @@
 
-/* Font Families */
-@font-face
-{
-    src:url(/fonts/Gilroy-Regular.ttf);
-    font-family:'Gilroy-Regular';
-}
-
-@font-face
-{
-    src:url(/fonts/Gilroy-Bold.ttf);
-    font-family:'Gilroy-Bold';
-}
-
-@font-face
-{
-    src:url(/fonts/Gilroy-SemiBold.ttf);
-    font-family:'Gilroy-SemiBold';
-}
-
-@font-face
-{
-    src:url(/fonts/Gilroy-Light.ttf);
-    font-family:'Gilroy-Light';
-}
-
 /* Modal Styles */
 .modalContainer {
     display: flex; 
