@@ -80,6 +80,7 @@
     height: 100px;
     width: 100px;
     background: radial-gradient(circle at 100px 100px, #a5a5a5, #000);
+    box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
   }
   
   .ball .shadow {
@@ -90,8 +91,8 @@
   /* Profile Image */
   .ballDiv1{
     position: absolute;
-    margin-top:  1190px;
-    margin-left: 200px;
+    margin-top:  1250px;
+    margin-left: 230px;
   }
       
   .ball1 {
@@ -102,6 +103,7 @@
     height: 250px;
     width: 250px;
     background: radial-gradient(circle at 10px 200px, #a5a5a5, #000);
+    box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
   }
       
   .ball1 .shadow1 {
