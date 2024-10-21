@@ -36,26 +36,26 @@ const workSnap = () => {
 //check which page is currently open and apply right snap
 window.onresize = () => {
     console.log('Window resized');
-    if (currentPage.includes('aboutMe.html')) {
+    if (currentPage.includes('aboutMe')) {
         aboutSnap();
-    } else if (currentPage.includes('contact.html')) {
+    } else if (currentPage.includes('contact')) {
         contactSnap();
-    } else if (currentPage.includes('resume.html')) {
+    } else if (currentPage.includes('resume')) {
         resumeSnap();
-    } else if (currentPage.includes('work.html')) {
+    } else if (currentPage.includes('work')) {
         workSnap();
     } 
 };
 
 
 //initial check when page loads
-if (currentPage.includes('aboutMe.html')) {
+if (currentPage.includes('aboutMe')) {
     aboutSnap();
-} else if (currentPage.includes('contact.html')) {
+} else if (currentPage.includes('contact')) {
     contactSnap();    
-} else if (currentPage.includes('resume.html')) {
+} else if (currentPage.includes('resume')) {
     resumeSnap();
-} else if (currentPage.includes('work.html')) {
+} else if (currentPage.includes('work')) {
     workSnap();
 } 
 
