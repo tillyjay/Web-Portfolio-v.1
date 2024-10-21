@@ -1,3 +1,27 @@
+/* Font Families */
+@font-face
+{
+    src:url(/assets/fonts/Gilroy-Regular.ttf);
+    font-family:'Gilroy-Regular';
+}
+
+@font-face
+{
+    src:url(/assets/fonts/Gilroy-Bold.ttf);
+    font-family:'Gilroy-Bold';
+}
+
+@font-face
+{
+    src:url(/assets/fonts/Gilroy-SemiBold.ttf);
+    font-family:'Gilroy-SemiBold';
+}
+
+@font-face
+{
+    src:url(/assets/fonts/Gilroy-Light.ttf);
+    font-family:'Gilroy-Light';
+}
 
 /* About Me Mobile Styles */
 @media only screen and (max-width: 650px) {
