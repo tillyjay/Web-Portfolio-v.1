@@ -7,6 +7,11 @@
     font-family: Gilroy-SemiBold;
     width: 100%;
     height: 100vh;
+    cursor: none;
+  }
+
+  a, button, input, textarea, select {
+    cursor: none; 
   }
 
   main {
