@@ -4,23 +4,13 @@ cursor.classList.add('custom-cursor');
 document.body.appendChild(cursor);
 cursor.style.boxShadow = 'rgba(77, 77, 77, 0.4) 0px 2px 8px 0px';
 
-//initially hide cursor
-cursor.style.display = 'hidden';
-
 //get cursor size
 const cursorSize = cursor.offsetWidth;
 
-//flag to track if mouse has moved
-let cursorVisible = false;
+
 
 //update cursor position
 document.addEventListener('mousemove', (e) => {
-    //show the cursor on first move
-    if (!cursorVisible) {
-        cursor.style.display = 'block';
-        cursorVisible = true;
-    }
-    
     //center cursor by subtracting half its size
     cursor.style.top = `${e.clientY - cursorSize / 2}px`; 
     cursor.style.left = `${e.clientX - cursorSize / 2}px`;
@@ -84,10 +74,4 @@ mobileNav.addEventListener('mouseenter', hideCursor);
 mobileNav.addEventListener('mouseleave', showCursor);
 mobileNav.addEventListener('click', hideCursor);
 
-//ensure custom cursor is displayed by default
-document.addEventListener('DOMContentLoaded', () => {
-    setTimeout(() => {
-        cursor.style.display = 'none';
-    }, 0);
-});
 
