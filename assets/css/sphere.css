@@ -1,12 +1,19 @@
 
 /* Sphere Styles */
+/* Active state when visible */
+.ballDiv.visible {
+  opacity: 1; 
+  transform: scale(1); 
+}
 
 /* Sphere One */
 .ballDiv1 {
   position: absolute;
   top: 50px;
   left: 100px;
-
+  opacity: 0; 
+  transform: scale(0); 
+  transition: opacity 0.7s ease, transform .7s ease; 
 }
 
 .ball1 {
@@ -52,7 +59,9 @@
   position: absolute;
   margin-top: 450px;
   margin-left: -45px;
-
+  opacity: 0; 
+  transform: scale(0); 
+  transition: opacity 0.7s ease, transform .7s ease; 
 }
 
 .ball2 {
@@ -104,6 +113,9 @@
   margin-top: 100px;
   margin-left: 900px;
   z-index: 20;
+  opacity: 0; 
+  transform: scale(0); 
+  transition: opacity 0.7s ease, transform .7s ease; 
 }
 
 .ball3 {
@@ -171,7 +183,9 @@
   position: absolute;
   margin-top: 750px;
   margin-left: 1200px;
-
+  opacity: 0; 
+  transform: scale(0); 
+  transition: opacity 0.7s ease, transform .7s ease; 
 }
 
 .ball4 {
@@ -222,6 +236,9 @@
   position: absolute;
   top: 1300px;
   left: 1100px;
+  opacity: 0; 
+  transform: scale(0); 
+  transition: opacity 0.7s ease, transform .7s ease; 
 }
 
 .ball5 {
@@ -271,6 +288,9 @@
   position: absolute;
   margin-top: 1550px;
   margin-left: 150px;
+  opacity: 0; 
+  transform: scale(0); 
+  transition: opacity 0.7s ease, transform .7s ease; 
 }
 
 .ball6 {
@@ -324,6 +344,9 @@
   position: absolute;
   margin-top: 2200px;
   margin-left: 1150px;
+  opacity: 0; 
+  transform: scale(0); 
+  transition: opacity 0.7s ease, transform .7s ease; 
 }
 
 .ball7 {
@@ -373,6 +396,9 @@
   position: absolute;
   margin-top: 2600px;
   margin-left: -30px;
+  opacity: 0; 
+  transform: scale(0); 
+  transition: opacity 0.7s ease, transform .7s ease; 
 
 }
 
@@ -424,6 +450,9 @@
   position: absolute;
   margin-top: 3300px;
   margin-left: 1300px;
+  opacity: 0; 
+  transform: scale(0); 
+  transition: opacity 0.7s ease, transform .7s ease; 
 }
 
 .ball9 {
@@ -475,6 +504,9 @@
   margin-top: 3800px;
   margin-left: -10px;
   z-index: 1;
+  opacity: 0; 
+  transform: scale(0); 
+  transition: opacity 0.7s ease, transform .7s ease; 
 }
 
 .ball10 {
@@ -526,6 +558,9 @@
   margin-top: 4100px;
   margin-left: 1100px;
   z-index: 9;
+  opacity: 0; 
+  transform: scale(0); 
+  transition: opacity 0.7s ease, transform .7s ease; 
 }
 
 .ball11 {
@@ -579,6 +614,9 @@
   position: absolute;
   margin-top: 4500px;
   margin-left: 65px;
+  opacity: 0; 
+  transform: scale(0); 
+  transition: opacity 0.7s ease, transform .7s ease; 
 }
 
 .ball16 {
@@ -629,6 +667,9 @@
   position: absolute;
   margin-top: 4850px;
   margin-left: 1300px;
+  opacity: 0; 
+  transform: scale(0); 
+  transition: opacity 0.7s ease, transform .7s ease; 
 }
 
 .ball17 {
@@ -682,6 +723,9 @@
   position: absolute;
   margin-top: 5850px;
   margin-left: 1000px;
+  opacity: 0; 
+  transform: scale(0); 
+  transition: opacity 0.7s ease, transform .7s ease; 
 }
 
 .ball18 {
