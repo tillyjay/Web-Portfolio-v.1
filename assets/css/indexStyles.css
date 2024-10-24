@@ -206,10 +206,11 @@ div#workContainerCont {
     color: #333; 
 }
 
-#downloadButton {
+#download-btn {
     background-color: #0eb782; 
     color: white; 
     font-family: Gilroy-SemiBold;
+    text-decoration: none;
     padding: 15px 30px; 
     border: none; 
     border-radius: 50px; 
@@ -218,11 +219,11 @@ div#workContainerCont {
     box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 8px 0px;
 }
 
-#downloadButton:hover {
+#download-btn:hover {
     background-color: #097754; 
 }
 
-#downloadButton:focus {
+#download-btn:focus {
     outline: 3px solid #2a9d8f;
     outline-offset: 4px;
     box-shadow: 0 0 10px rgba(42, 157, 143, 0.7);
