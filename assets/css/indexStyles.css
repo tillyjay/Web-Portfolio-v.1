@@ -272,7 +272,7 @@ div#workContainerCont {
 
 /* Contact Section */
 #contactSection {
-    background-color:  #F1FAEE;
+    background-color: #F1FAEE;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -284,7 +284,6 @@ div#workContainerCont {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-
 }
 
 #hi {
@@ -298,16 +297,18 @@ form {
     flex-flow: column wrap;
     justify-content: center;
     align-items: flex-start;
-    z-index:10;
+    z-index: 10;
+    width: 68%; 
+    margin-right: 10px; 
 }
 
-label {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 5px;
+.elem-group {
+    margin-top: 25px; 
 }
 
 input {
+    margin-top: 5px; 
+    margin-bottom: 20px; 
     width: 410px;
     height: 25px;
     border-radius: 15px;
@@ -316,16 +317,18 @@ input {
     font-family: Gilroy-Semibold;
 }
 
-input::placeholder{
+input::placeholder {
     padding-left: 10px;
 }
+
 textarea::placeholder {
-  padding: 5px;
+    padding: 5px;
 }
 
 #message {
     margin-top: 20px;
     width: 400px;
+    height: 200px;
     border-radius: 20px;
     padding: 10px;
     border: 2px solid #13CF93;
@@ -353,6 +356,7 @@ textarea::placeholder {
     border: 2px solid #F1FAEE;
     background-color: #13CF93;
 }
+
 
 
 /* Footer Styles*/    

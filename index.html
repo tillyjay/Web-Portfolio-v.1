@@ -876,29 +876,30 @@
     </section>
 
 <!--contact section-->
-    <section id="contactSection" aria-labelledby="contact">
-        <div class="contactContainer">
+<!--contact section-->
+<section id="contactSection" aria-labelledby="contact">
+    <div class="contactContainer">
+        <h2 id="hi">Say Hi.</h2>
 
-            <h2 id="hi">Say Hi.</h2>
-
- <form style="width: 68%; margin-right: 10px;" action="/php/contact.php" method="post">
-            <div style="margin-top: 25px;" class="elem-group">
-                <input style="margin-top: 5px; margin-bottom: 20px;" type="text" id="name" name="visitor_name" placeholder="Name" pattern=[A-Z\sa-z]{3,20} required>
+        <form action="/php/contact.php" method="post">
+            <div class="elem-group">
+                <input type="text" id="name" name="visitor_name" placeholder="Name" pattern="[A-Z\sa-z]{3,20}" required>
             </div>
             <div class="elem-group">
-                <input style="margin-top: 5px;" type="email" id="email" name="visitor_email" placeholder="Email" required>
+                <input type="email" id="email" name="visitor_email" placeholder="Email" required>
             </div>
             <div class="elem-group">
-                <textarea  class="hover" style="height: 200px;" id="message" name="visitor_message" placeholder="Message" required></textarea>
+                <textarea class="hover" id="message" name="visitor_message" placeholder="Message" required></textarea>
             </div>
- 
+
             <button id="submit" type="submit">
                 <i class="fa-solid fa-paper-plane fa-xl" alt="submit button"></i>
-                <span class="sr-only">Submit</span> 
+                <span class="sr-only">Submit</span>
             </button>
         </form>
-        </div>
-    </section>
+    </div>
+</section>
+
 
 
 <!--javascript-->
