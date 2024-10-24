@@ -202,7 +202,7 @@ div#workContainerCont {
 #downloadTitle {
     font-family: Gilroy-Bold;
     font-size: 2.5rem;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     color: #333; 
 }
 
@@ -221,14 +221,6 @@ div#workContainerCont {
 
 #download-btn:hover {
     background-color: #097754; 
-}
-
-#download-btn:focus {
-    outline: 3px solid #2a9d8f;
-    outline-offset: 4px;
-    box-shadow: 0 0 10px rgba(42, 157, 143, 0.7);
-    background-color: #097754;
-    border-radius: 50px; 
 }
 
 
