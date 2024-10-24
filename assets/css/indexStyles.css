@@ -316,6 +316,13 @@ input {
     font-family: Gilroy-Semibold;
 }
 
+input::placeholder{
+    padding-left: 10px;
+}
+textarea::placeholder {
+  padding: 5px;
+}
+
 #message {
     margin-top: 20px;
     width: 400px;
