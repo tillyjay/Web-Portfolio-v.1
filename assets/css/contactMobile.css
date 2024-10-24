@@ -1,7 +1,5 @@
-
 /* Contact Mobile Styles */
 @media only screen and (max-width: 650px) {
-
     body {
         background-color: #F1FAEE;
         font-family: Gilroy-SemiBold;
@@ -15,7 +13,7 @@
     }
 
     #contactSection {
-        background-color:  #F1FAEE;
+        background-color: #F1FAEE;
         display: flex; 
         justify-content: center;
         align-items: center;
@@ -32,7 +30,7 @@
         align-items: center;
         margin-right: 90px;
         margin-top: 15%;
-        width:100%;
+        width: 100%;
     }
 
     #hi {
@@ -47,25 +45,27 @@
         justify-content: center;
         align-items: flex-start;
         width: 68%;
+        margin-right: 10px; 
     }
 
-    label {
-        font-size: 25px;
-        margin-top: 20px;
-        margin-bottom: 5px; 
+    .elem-group {
+        margin-top: 25px; 
     }
 
     input {
-        width: 300px;
+        width: 310px; 
         height: 25px;
         border-radius: 15px;
         padding: 5px;
         border: 2px solid #13CF93;
         font-family: Gilroy-Semibold;
-        width: 140%;
+        margin-top: 5px; 
+        margin-bottom: 20px; 
     }
 
     #message {
+        width: 300px; 
+        height: 150px; 
         margin-top: 20px;
         border-radius: 20px;
         padding: 10px;
@@ -73,12 +73,12 @@
         font-family: Gilroy-Semibold;
     }
 
-    input::placeholder{
-            padding-left: 10px;
+    input::placeholder {
+        padding-left: 10px;
     }
-    
+
     textarea::placeholder {
-            padding: 5px;
+        padding: 5px;
     }
 
     ::placeholder {
@@ -95,6 +95,5 @@
         color: #13CF93;
         border: 2px solid #13CF93;
         background-color: white;
-    
     }
-}    
+}
