@@ -53,11 +53,11 @@ div.titleDiv {
 }
 
 div.titleDiv h1 {
-    font-size: 9vw;
+    font-size: 8rem;
 }
 
 #webTitle {
-    margin-right: 0px;
+    margin-top: 10px;
 }    
 
 #thumbnail {
